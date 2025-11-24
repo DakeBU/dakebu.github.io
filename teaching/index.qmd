@@ -1,0 +1,14 @@
+---
+title: Teaching
+page-layout: article
+---
+
+Describe your teaching philosophy and list courses here.
+
+## Current courses
+
+- **Course ABC (Year)** — short description, role, links to syllabus / materials.
+
+## Past courses
+
+- Course name, institution, year(s).

@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Dake Bu"
+  description: "Incoming Intern in CFAR, A*STAR; Ph.D Candidate in City University of Hong Kong."
+  site-url: https://dakebu.github.io
+  favicon: images/Fig_small.jpg
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research/index.qmd
+      - text: Teaching
+        href: teaching/index.qmd
+      - text: Posts
+        href: posts/index.qmd
+      - text: CV
+        href: cv/index.qmd
+      - text: Scholar
+        href: "https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate"
+      - icon: github
+        href: "https://github.com/DakeBU"
+
+  page-footer:
+    left: "© {< var current_year >} Dake Bu"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    smooth-scroll: true
+
+metadata-files:
+  - _brand.yml

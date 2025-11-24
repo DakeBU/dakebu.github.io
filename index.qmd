@@ -1,0 +1,45 @@
+---
+title: "Dake Bu"
+page-layout: full
+---
+
+::: {.row g-4}
+
+::: {.col-lg-8}
+
+# About Me
+
+_{< var role >}, {< var affiliation >}._
+
+My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling and reinforcement learning
+
+You can find a full list of my papers on [Google Scholar](https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate).
+
+
+## News
+
+- 2025-01 — Two papers on [theoretical foundation of task vector in In-Context Learning](https://openreview.net/pdf?id=DbUmeNnNpt), and [Multi-objective Reinforcement Learning with Lexicographic Rewards](https://openreview.net/pdf?id=RTHTyTsRT3) are accepted to **ICML 2025**.  
+- 2024-09 — One paper on [In context learning with multi-concept word semantics](https://proceedings.neurips.cc/paper_files/paper/2024/file/73efab19ebde03ff0958f4f155483f57-Paper-Conference.pdf) is accepted to **NeurIPS 2024**.  
+- 2024-01 — One paper on [theoretical foundation of neural active learning](https://arxiv.org/pdf/2406.03944) accepted to **ICML 2025**.  
+
+
+## Contact
+
+- **Affiliation**: {< var affiliation >}  
+- **Location**: {< var location >}  
+- **Email**: <{< var email >}>  
+
+## Links
+
+- 📄 [Curriculum Vitae](cv/cv.pdf)  
+- 📚 [Google Scholar](https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate)  
+
+## Education
+
+- Oct. 2023 – Present — Phd Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).  
+- Aug. 2019 – Jun.2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU).  
+
+:::
+
+:::
+

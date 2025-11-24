@@ -1,0 +1,11 @@
+---
+title: Posts
+page-layout: article
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  feed: true
+---
+
+Short notes, blog posts, or technical write-ups.

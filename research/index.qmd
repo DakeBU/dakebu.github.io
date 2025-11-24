@@ -1,0 +1,16 @@
+---
+title: Research
+page-layout: article
+---
+
+This page can summarise your research agenda and link to publications, working papers, and projects.
+
+## Working papers
+
+- Title, co-authors, year. Link to PDF or journal / SSRN.
+
+## Publications
+
+You can either maintain a manual list here, or keep this brief and link to your Google Scholar profile.
+
+- Title, journal, year.

@@ -1,0 +1,7 @@
+---
+title: Hello, Quarto
+date: 2025-11-24
+categories: [misc]
+---
+
+This is a placeholder post. Replace it with your own content, or delete the `posts/` folder if you don't want a blog.

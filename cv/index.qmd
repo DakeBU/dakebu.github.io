@@ -1,0 +1,10 @@
+---
+title: Curriculum Vitae
+page-layout: article
+---
+
+I keep my CV as a PDF.
+
+- [Download CV (PDF)](cv.pdf)
+
+Put your `cv.pdf` file into this folder: `cv/cv.pdf`.
