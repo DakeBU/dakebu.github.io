@@ -16,9 +16,9 @@ page-layout: full
 
 _{{< var role >}}, {{< var affiliation >}}._
 
-Hi! I am currently a PhD candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html). I’m also fortunate to work with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/). Before that, I completed my bachelor degree in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?user=BhgtoWMAAAAJ).
+Hi! I am currently a PhD candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html) since 2023 fall. I’m also fortunate to work with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/). Before that, I completed my bachelor degree in 2023 in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?user=BhgtoWMAAAAJ).
 
-I am currently an incoming 1-year intern to CFAR, A*STAR, where I will be supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Before that, I spent one year at the University of Tokyo as a member of the Deep Learning Theory Team, RIKEN AIP, advised by Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/).
+I am currently an incoming one-year intern at CFAR, A*STAR, where I will be supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working with the Deep Learning Theory Team at RIKEN AIP under the supervision of Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/). Earlier, from January to May 2023, I was a research assistant in the [LOGO](https://mypage.cuhk.edu.cn/academics/yutianshu/LOGO.html) Lab at The Chinese University of Hong Kong, advised by Prof. [Tianshu Yu](https://mypage.cuhk.edu.cn/academics/yutianshu/).
 
 My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling and reinforcement learning.
 
@@ -43,6 +43,12 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 
 - Oct. 2023 – Present — PhD Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).  
 - Aug. 2019 – Jun. 2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU).  
+
+## Work Experience
+
+- Dec. 2025 - Present, - Research Intern, CFAR A*STAR
+- Dec. 2024 - Oct. 2023 - Research Intern, RIKEN AIP
+- Jan. 2023- May. 2023 - Research Assistant, The Chinese University of Hong Kong, Shenzhen
 
 :::
 
