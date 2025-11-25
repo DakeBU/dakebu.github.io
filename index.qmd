@@ -11,7 +11,12 @@ page-layout: full
 
 _{{< var role >}}, {{< var affiliation >}}._
 
-My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling and reinforcement learning
+Hi! I am currently a Phd candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html). Before that, I completed by bachlor degree in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?user=BhgtoWMAAAAJ). I'm also fortunate to work with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/).
+
+I am currently an incoming 1-year intern to CFAR, ASTAR, where I would be supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Before that, I spent one year in the University of Tokyo as a member of Deep Learning Theory Team, RIKEN AIP, advised by Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/). 
+
+
+My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling and reinforcement learning.
 
 You can find a full list of my papers on [Google Scholar](https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate).
 
@@ -39,7 +44,4 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 - Oct. 2023 – Present — Phd Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).  
 - Aug. 2019 – Jun.2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU).  
 
-:::
-
-:::
 

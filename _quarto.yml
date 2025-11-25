@@ -35,4 +35,4 @@ format:
     smooth-scroll: true
 
 metadata-files:
-  - _brand.yml
+  - _variables.yml
