@@ -1,25 +1,36 @@
 ---
-title: "Dake Bu"
+title: ""
 page-layout: full
 ---
 
-::: {.row g-4}
+:::{.row g-4 align-items-center}
 
-::: {.col-lg-8}
+::: {.col-md-4}
+![Dake Bu](image/Fig_small.png){.img-fluid .rounded-circle width=220}
+:::
 
-# About Me
+::: {.col-md-8}
+
+# Dake Bu
 
 _{{< var role >}}, {{< var affiliation >}}._
 
-Hi! I am currently a Phd candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html). Before that, I completed by bachlor degree in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?user=BhgtoWMAAAAJ). I'm also fortunate to work with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/).
+Hi! I am currently a Phd candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html). Before that, I completed my bachelor degree in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?user=BhgtoWMAAAAJ). I'm also fortunate to work with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/).
 
-I am currently an incoming 1-year intern to CFAR, ASTAR, where I would be supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Before that, I spent one year in the University of Tokyo as a member of Deep Learning Theory Team, RIKEN AIP, advised by Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/). 
-
+I am currently an incoming 1-year intern to CFAR, A*STAR, where I will be supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Before that, I spent one year at the University of Tokyo as a member of the Deep Learning Theory Team, RIKEN AIP, advised by Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/).
 
 My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling and reinforcement learning.
 
 You can find a full list of my papers on [Google Scholar](https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate).
 
+:::
+:::
+
+---
+
+:::{.row g-4}
+
+::: {.col-lg-8}
 
 ## News
 
@@ -27,6 +38,14 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 - 2024-09 — One paper on [In context learning with multi-concept word semantics](https://proceedings.neurips.cc/paper_files/paper/2024/file/73efab19ebde03ff0958f4f155483f57-Paper-Conference.pdf) is accepted to **NeurIPS 2024**.  
 - 2024-01 — One paper on [theoretical foundation of neural active learning](https://arxiv.org/pdf/2406.03944) accepted to **ICML 2025**.  
 
+## Education
+
+- Oct. 2023 – Present — PhD Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).  
+- Aug. 2019 – Jun. 2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU).  
+
+:::
+
+::: {.col-lg-4}
 
 ## Contact
 
@@ -39,9 +58,6 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 - 📄 [Curriculum Vitae](cv/cv.pdf)  
 - 📚 [Google Scholar](https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate)  
 
-## Education
+:::
 
-- Oct. 2023 – Present — Phd Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).  
-- Aug. 2019 – Jun.2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU).  
-
-
+:::
