@@ -15,7 +15,7 @@ page-layout: full
 
 _{{< var role >}}, {{< var affiliation >}}._
 
-Hi! I am currently a Phd candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html). Before that, I completed my bachelor degree in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?user=BhgtoWMAAAAJ). I'm also fortunate to work with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/).
+Hi! I am currently a Phd candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html). I'm also fortunate to work with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/). Before that, I completed my bachelor degree in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?user=BhgtoWMAAAAJ).
 
 I am currently an incoming 1-year intern to CFAR, A*STAR, where I will be supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Before that, I spent one year at the University of Tokyo as a member of the Deep Learning Theory Team, RIKEN AIP, advised by Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/).
 
