@@ -9,7 +9,7 @@ page-layout: full
 
 # About Me
 
-_{< var role >}, {< var affiliation >}._
+_{{< var role >}}, {{< var affiliation >}}._
 
 My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling and reinforcement learning
 
@@ -25,9 +25,9 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 
 ## Contact
 
-- **Affiliation**: {< var affiliation >}  
-- **Location**: {< var location >}  
-- **Email**: <{< var email >}>  
+- **Affiliation**: {{< var affiliation >}}  
+- **Location**: {{< var location >}}  
+- **Email**: <{{< var email >}}>  
 
 ## Links
 
