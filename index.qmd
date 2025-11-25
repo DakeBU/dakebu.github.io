@@ -6,7 +6,7 @@ page-layout: full
 :::{.row g-4 align-items-center}
 
 ::: {.col-md-4}
-![Dake Bu](image/Fig_small.png){.img-fluid .rounded-circle width=220}
+![Dake Bu](image/Fig_small.jpg){.img-fluid .rounded-circle width=220}
 :::
 
 ::: {.col-md-8}
