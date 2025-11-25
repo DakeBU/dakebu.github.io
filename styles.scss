@@ -1,5 +1,5 @@
 /*-- scss:defaults --*/
-// 这里可以放变量覆盖（可暂时留空）
+//
 
 /*-- scss:rules --*/
 
@@ -54,4 +54,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.name-alt {
+  display: block;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-top: 0.15rem;
 }

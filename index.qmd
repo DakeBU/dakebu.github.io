@@ -5,13 +5,14 @@ page-layout: full
 
 :::{.row .g-4 .align-items-center}
 
-::: {.col-md-4}
-![Dake Bu](image/Fig_small.jpg){.img-fluid .rounded-circle width=220}
+::: {.col-md-4 .text-center}
+![](image/Fig_small.jpg){.img-fluid .rounded-circle width=220}
 :::
 
 ::: {.col-md-8}
 
 # Dake Bu
+<span class="name-alt">卜 大可 ・ ウラナイ タイカ</span>
 
 _{{< var role >}}, {{< var affiliation >}}._
 
