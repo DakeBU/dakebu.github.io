@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Dake Bu",
     "section": "",
-    "text": "::: {.row g-4}"
+    "text": ":::{.row g-4 align-items-center}\n:::\n:::{.row g-4}\n:::"
   },
   {
     "objectID": "index.html#news",
@@ -42,11 +42,18 @@
     "text": "News\n\n2025-01 — Two papers on theoretical foundation of task vector in In-Context Learning, and Multi-objective Reinforcement Learning with Lexicographic Rewards are accepted to ICML 2025.\n\n2024-09 — One paper on In context learning with multi-concept word semantics is accepted to NeurIPS 2024.\n\n2024-01 — One paper on theoretical foundation of neural active learning accepted to ICML 2025."
   },
   {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Dake Bu",
+    "section": "Education",
+    "text": "Education\n\nOct. 2023 – Present — PhD Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).\n\nAug. 2019 – Jun. 2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU)."
+  },
+  {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
     "title": "Dake Bu",
     "section": "Contact",
-    "text": "Contact\n\nAffiliation: City University of Hong Kong\n\nLocation: Singapore\n\nEmail: &lt;dakebu2-c[at]my.cityu[dot]edu[dot]hk&gt;"
+    "text": "Contact\n\nAffiliation: Department of Computer Science, City University of Hong Kong\n\nLocation: Singapore\n\nEmail: &lt;dakebu2-c[at]my.cityu[dot]edu[dot]hk&gt;"
   },
   {
     "objectID": "index.html#links",
@@ -54,13 +61,6 @@
     "title": "Dake Bu",
     "section": "Links",
     "text": "Links\n\n📄 Curriculum Vitae\n\n📚 Google Scholar"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Dake Bu",
-    "section": "Education",
-    "text": "Education\n\nOct. 2023 – Present — Phd Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).\n\nAug. 2019 – Jun.2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU)."
   },
   {
     "objectID": "cv/index.html",
