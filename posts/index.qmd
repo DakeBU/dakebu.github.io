@@ -8,4 +8,4 @@ listing:
   feed: true
 ---
 
-Short notes, blog posts, or technical write-ups.
+

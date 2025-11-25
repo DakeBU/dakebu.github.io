@@ -3,12 +3,13 @@ title: Teaching
 page-layout: article
 ---
 
-Describe your teaching philosophy and list courses here.
 
 ## Current courses
 
-- **Course ABC (Year)** — short description, role, links to syllabus / materials.
+- **CS3483 (2025)** — Multi-model Interface Design.
 
 ## Past courses
 
-- Course name, institution, year(s).
+- **CS3481 (2024)** — Fundamentals of Data Science.
+
+- **CS3483 (2023)** — Multi-model Interface Design.

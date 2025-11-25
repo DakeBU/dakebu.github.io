@@ -3,14 +3,26 @@ title: Research
 page-layout: article
 ---
 
-This page can summarise your research agenda and link to publications, working papers, and projects.
 
 ## Working papers
 
-- Title, co-authors, year. Link to PDF or journal / SSRN.
+- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Benefit of
+Curriculum in Transformer Tree-Reasoning Post-Training.
+
+- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Consistency Is Not Always
+Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning.
 
 ## Publications
 
-You can either maintain a manual list here, or keep this brief and link to your Google Scholar profile.
+- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector
+ Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025).
 
-- Title, journal, year.
+- Bo Xue, **Dake Bu**, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic
+ Rewards. The 42nd International Conference on Machine Learning (ICML2025).
+
+- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness
+ Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS
+ 2024).
+
+- **Dake Bu**, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning
+SucceedsviaPrioritizingPerplexingSamples (ICML2024).
