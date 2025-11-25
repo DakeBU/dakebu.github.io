@@ -1,12 +1,12 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Dake Bu"
   description: "Incoming Intern in CFAR, A*STAR; Ph.D Candidate in City University of Hong Kong."
   site-url: https://dakebu.github.io
-  favicon: images/Fig_small.jpg
+  favicon: image/Fig_small.jpg
   navbar:
     right:
       - text: Home

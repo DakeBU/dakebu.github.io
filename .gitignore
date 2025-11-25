@@ -3,3 +3,6 @@ _site/
 *.log
 .Rhistory
 .Rproj.user
+
+/.quarto/
+**/*.quarto_ipynb
