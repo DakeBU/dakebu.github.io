@@ -15,14 +15,14 @@ Correct: Towards Understanding the Role of Exploration in Post-Training Reasonin
 ## Publications
 
 - **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector
- Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025).
+ Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [[arXiv](https://arxiv.org/abs/2508.09820)]
 
 - Bo Xue, **Dake Bu**, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic
  Rewards. The 42nd International Conference on Machine Learning (ICML2025).
 
 - **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness
  Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS
- 2024).
+ 2024). [[arXiv](https://arxiv.org/abs/2411.02199)]
 
 - **Dake Bu**, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning
-SucceedsviaPrioritizingPerplexingSamples (ICML2024).
+SucceedsviaPrioritizing Perplexing Samples (ICML2024). [[arXiv](https://arxiv.org/abs/2406.03944)]
