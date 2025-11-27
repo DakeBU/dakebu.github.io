@@ -5,8 +5,8 @@ import json
 from datetime import datetime
 
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
 from google.analytics.data_v1beta.types import (
@@ -18,11 +18,9 @@ from google.analytics.data_v1beta.types import (
 from google.oauth2 import service_account
 
 
-# ==================
-PROPERTY_ID = "514471754" 
-LOCAL_KEY_FILE = "ga-dakebu-5c9fdbc20e9e.json" 
+PROPERTY_ID = "514471754"
+LOCAL_KEY_FILE = "ga-dakebu-5c9fdbc20e9e.json"
 OUTPUT_PATH = "image/site_statistics.png"
-# =======================
 
 
 def make_client():
@@ -34,11 +32,11 @@ def make_client():
     return BetaAnalyticsDataClient(credentials=creds)
 
 
-def fetch_ga_data():
+def fetch_ga():
     client = make_client()
     prop = f"properties/{PROPERTY_ID}"
 
-    # 365 天总量
+    # ---- 365 days ----
     resp_year = client.run_report(
         RunReportRequest(
             property=prop,
@@ -57,7 +55,7 @@ def fetch_ga_data():
         total_views_365 = 0
         total_users_365 = 0
 
-    # 90 天每日
+    # ---- 90 days daily ----
     resp_daily = client.run_report(
         RunReportRequest(
             property=prop,
@@ -66,6 +64,7 @@ def fetch_ga_data():
             date_ranges=[DateRange(start_date="90daysAgo", end_date="yesterday")],
         )
     )
+
     if resp_daily.rows:
         df_daily = pd.DataFrame(
             {
@@ -77,11 +76,12 @@ def fetch_ga_data():
                     int(r.metric_values[0].value) for r in resp_daily.rows
                 ],
             }
-        ).sort_values("date")
+        )
+        df_daily = df_daily.sort_values("date")
     else:
         df_daily = pd.DataFrame({"date": [], "views": []})
 
-    # 90 天按国家
+    # ---- country ----
     resp_country = client.run_report(
         RunReportRequest(
             property=prop,
@@ -90,6 +90,7 @@ def fetch_ga_data():
             date_ranges=[DateRange(start_date="90daysAgo", end_date="yesterday")],
         )
     )
+
     if resp_country.rows:
         df_country = pd.DataFrame(
             {
@@ -97,74 +98,59 @@ def fetch_ga_data():
                 "views": [int(r.metric_values[0].value) for r in resp_country.rows],
             }
         )
-        df_country = (
-            df_country[df_country["views"] > 0]
-            .sort_values("views", ascending=False)
-            .head(20)
-        )
+        df_country = df_country[df_country["views"] > 0]
+        df_country = df_country.sort_values("views", ascending=False).head(20)
     else:
         df_country = pd.DataFrame({"country": [], "views": []})
 
     return total_views_365, total_users_365, df_daily, df_country
 
 
-def plot_stats(total_views_365, total_users_365, df_daily, df_country):
-    # 
-    if not df_daily.empty:
-        cap99 = df_daily["views"].quantile(0.99)
-        total_views_90 = int(df_daily["views"].sum())
-        total_views_90_win = int(df_daily["views"].clip(upper=cap99).sum())
-        df_daily["views_win"] = df_daily["views"].clip(upper=cap99)
-    else:
-        cap99 = 0
-        total_views_90 = 0
-        total_views_90_win = 0
-        df_daily["views_win"] = []
-
-    today = datetime.today().date()
-
-    # ------- 画图风格 ----------
+def draw_picture(total_views_365, total_users_365, df_daily, df_country):
     plt.style.use("seaborn-v0_8-whitegrid")
-    fig = plt.figure(figsize=(8.27, 11.69))  # A4 比例
 
-    # 标题 + 文本摘要
-    fig.suptitle("Site statistics", fontsize=18, x=0.08, y=0.96, ha="left")
+    # 
+    plt.rcParams["font.size"] = 11
+    plt.rcParams["font.family"] = "DejaVu Sans"
+    plt.rcParams["axes.titleweight"] = "bold"
 
-    text_lines = [
-        f"Last Updated:              {today.isoformat()}",
-        f"Total Visitors (365 Days): {total_users_365:,}",
-        f"Total Views   (365 Days):  {total_views_365:,}",
-        f"Total Views   (90 Days):   {total_views_90:,}",
-        f"Total Views   (90 Days):   {total_views_90_win:,} (winsorized at 99%)",
-    ]
+    fig = plt.figure(figsize=(10, 12))
 
-    fig.text(
-        0.08,
-        0.90,
-        "\n".join(text_lines),
-        family="monospace",
-        fontsize=10,
-        va="top",
-    )
+    today = datetime.today().strftime("%Y-%m-%d")
 
     #
-    ax1 = fig.add_axes([0.1, 0.56, 0.85, 0.30])  # [left, bottom, width, height]
+    summary = (
+        f"Last Updated: {today}\n"
+        f"Total Visitors (365 Days): {total_users_365:,}\n"
+        f"Total Views (365 Days): {total_views_365:,}\n"
+    )
+
+    ax_text = fig.add_axes([0.05, 0.87, 0.9, 0.10])
+    ax_text.axis("off")
+    ax_text.text(
+        0,
+        0.9,
+        summary,
+        va="top",
+        ha="left",
+        fontsize=12,
+        family="monospace",
+    )
+
+    # 
+    ax1 = fig.add_axes([0.08, 0.55, 0.85, 0.28])
     if not df_daily.empty:
-        ax1.plot(
-            df_daily["date"],
-            df_daily["views_win"],
-            marker="o",
-            linewidth=1.3,
-        )
-    ax1.set_title("Daily Site Views (Past 90 Days), winsorized at 99%")
+        cap = df_daily["views"].quantile(0.99)
+        df_daily["winsor"] = df_daily["views"].clip(upper=cap)
+        ax1.plot(df_daily["date"], df_daily["winsor"], marker="o", markersize=3)
+    ax1.set_title("Daily Site Views (Past 90 Days)")
     ax1.set_ylabel("Views")
-    ax1.set_xlabel("")
     for label in ax1.get_xticklabels():
         label.set_rotation(30)
         label.set_ha("right")
 
-    #
-    ax2 = fig.add_axes([0.1, 0.10, 0.85, 0.36])
+    # 
+    ax2 = fig.add_axes([0.08, 0.10, 0.85, 0.38])
     if not df_country.empty:
         y = np.arange(len(df_country))
         ax2.barh(y, df_country["views"])
@@ -174,14 +160,13 @@ def plot_stats(total_views_365, total_users_365, df_daily, df_country):
     ax2.set_xlabel("Views")
     ax2.set_title("Top 20 Regions by Views (Past 90 Days)")
 
-    fig.savefig(OUTPUT_PATH, dpi=200, bbox_inches="tight")
+    fig.savefig(OUTPUT_PATH, dpi=150, bbox_inches="tight")
     plt.close(fig)
-    print(f"Saved statistics figure to {OUTPUT_PATH}")
 
 
 def main():
-    total_views_365, total_users_365, df_daily, df_country = fetch_ga_data()
-    plot_stats(total_views_365, total_users_365, df_daily, df_country)
+    t365, u365, daily, country = fetch_ga()
+    draw_picture(t365, u365, daily, country)
 
 
 if __name__ == "__main__":
