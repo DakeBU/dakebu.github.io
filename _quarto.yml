@@ -7,6 +7,7 @@ website:
   description: "Incoming Intern in CFAR, A*STAR; Ph.D Candidate in City University of Hong Kong."
   site-url: https://dakebu.github.io
   favicon: image/Fig_small.jpg
+  google-analytics: "G-J4235845KP"
   navbar:
     right:
       - text: Home
