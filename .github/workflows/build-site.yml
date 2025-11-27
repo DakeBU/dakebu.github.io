@@ -17,20 +17,26 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      # 
-      - name: Install Python dependencies for system python3
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
         run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install \
-            jupyter nbformat notebook \
-            pandas altair google-analytics-data pyyaml
+          python -m pip install --upgrade pip
+          python -m pip install google-analytics-data pandas matplotlib
+
+      - name: Generate site statistics figure
+        env:
+          GA_KEY_JSON: ${{ secrets.GA_KEY_JSON }}
+        run: |
+          python scripts/gen_site_stats.py
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site with Quarto
-        env:
-          GA_KEY_JSON: ${{ secrets.GA_KEY_JSON }}
         run: quarto render
 
       - name: Commit and push rendered site
