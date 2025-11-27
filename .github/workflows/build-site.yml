@@ -2,7 +2,7 @@ name: Build and publish site
 
 on:
   schedule:
-    - cron: '0 18 * * *'   # 
+    - cron: '0 18 * * *'   # 18:00 UTC
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -12,29 +12,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      QUARTO_PYTHON: python   # 
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install Python dependencies
+      # 
+      - name: Install Python dependencies for system python3
         run: |
-          python -m pip install --upgrade pip
-          pip install jupyter nbformat notebook pandas altair google-analytics-data pyyaml
+          python3 -m pip install --upgrade pip
+          python3 -m pip install \
+            jupyter nbformat notebook \
+            pandas altair google-analytics-data pyyaml
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site with Quarto
         env:
-          QUARTO_PYTHON: python
           GA_KEY_JSON: ${{ secrets.GA_KEY_JSON }}
         run: quarto render
 
@@ -45,7 +40,7 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else:
+          else
             git commit -m "Automated site build"
             git push
           fi
