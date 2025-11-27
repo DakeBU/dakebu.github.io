@@ -43,6 +43,8 @@ jobs:
           printf '%s' "${{ secrets.GA_KEY_JSON }}" > ga-dakebu-5c9fdbc20e9e.json
 
       - name: Render site with Quarto
+        env:
+          QUARTO_PYTHON: python
         run: quarto render
 
       - name: Commit and push rendered site
