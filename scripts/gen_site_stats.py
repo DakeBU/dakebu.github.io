@@ -107,7 +107,7 @@ def fetch_ga():
 
 def draw_picture(total_views_365, total_users_365, df_daily, df_country):
     plt.style.use("seaborn-v0_8-whitegrid")
-    plt.rcParams["font.size"] = 9
+    plt.rcParams["font.size"] = 6
     plt.rcParams["font.family"] = "DejaVu Sans"
 
     fig = plt.figure(figsize=(9, 10))
@@ -142,13 +142,20 @@ def draw_picture(total_views_365, total_users_365, df_daily, df_country):
         va="top",
         ha="left",
         family="monospace",
-        fontsize=9,
+        fontsize=6,
     )
 
     ax1 = fig.add_axes([0.08, 0.50, 0.84, 0.24])
     if not df_daily.empty:
         ax1.plot(df_daily["date"], df_daily["winsor"], marker="o", markersize=2.5)
-    ax1.set_title("Daily Site Views (Past 90 Days), winsorized at 99%", fontsize=10)
+        min_d = df_daily["date"].min()
+        max_d = df_daily["date"].max()
+        if min_d == max_d:
+            from datetime import timedelta
+            ax1.set_xlim(min_d - timedelta(days=1), max_d + timedelta(days=1))
+        else:
+            ax1.set_xlim(min_d, max_d)
+    ax1.set_title("Daily Site Views (Past 90 Days), winsorized at 99%", fontsize=7)
     ax1.set_ylabel("Views")
     ax1.set_xlabel("")
     for label in ax1.get_xticklabels():
@@ -163,7 +170,7 @@ def draw_picture(total_views_365, total_users_365, df_daily, df_country):
         ax2.set_yticklabels(df_country["country"])
         ax2.invert_yaxis()
     ax2.set_xlabel("Views")
-    ax2.set_title("Top 20 Regions by Views (Past 90 Days)", fontsize=10)
+    ax2.set_title("Top 20 Regions by Views (Past 90 Days)", fontsize=7)
 
     fig.savefig(OUTPUT_PATH, dpi=150, bbox_inches="tight")
     plt.close(fig)
