@@ -75,14 +75,24 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 # fmt: off
 import pandas as pd, altair as alt
 from datetime import datetime, timedelta
+import os, json
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
 from google.analytics.data_v1beta.types import DateRange, Dimension, Metric, RunReportRequest
 from google.oauth2 import service_account
 
+pid = "514471754"  # 
 
-key, pid = "ga-dakebu-5c9fdbc20e9e.json", "514471754"
-creds = service_account.Credentials.from_service_account_file(key)
+if "GA_KEY_JSON" in os.environ:
+    # 
+    info = json.loads(os.environ["GA_KEY_JSON"])
+    creds = service_account.Credentials.from_service_account_info(info)
+else:
+    # 
+    key = "ga-dakebu-5c9fdbc20e9e.json"  # 这个文件你本地有，git ignore 掉
+    creds = service_account.Credentials.from_service_account_file(key)
+
 client = BetaAnalyticsDataClient(credentials=creds)
+
 
 # ---------- Past-year totals (views + users) ----------
 resp_year = client.run_report(RunReportRequest(
