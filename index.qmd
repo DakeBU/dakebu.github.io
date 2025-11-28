@@ -68,7 +68,7 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 
 ---
 
-## 📊 Site statistics
+## Site Statistics 📊
 
 ![](image/site_statistics.png){width=100%}
 
