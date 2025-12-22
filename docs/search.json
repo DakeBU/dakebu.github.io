@@ -1,45 +1,38 @@
 [
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
     "section": "",
-    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
+    "text": "CS3483 (2025) — Multi-model Interface Design."
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
+    "objectID": "teaching/index.html#current-courses",
+    "href": "teaching/index.html#current-courses",
+    "title": "Teaching",
     "section": "",
-    "text": "Dake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training.\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Consistency Is Not Always Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning."
+    "text": "CS3483 (2025) — Multi-model Interface Design."
   },
   {
-    "objectID": "research/index.html#working-papers",
-    "href": "research/index.html#working-papers",
-    "title": "Research",
-    "section": "",
-    "text": "Dake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training.\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Consistency Is Not Always Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning."
+    "objectID": "teaching/index.html#past-courses",
+    "href": "teaching/index.html#past-courses",
+    "title": "Teaching",
+    "section": "Past courses",
+    "text": "Past courses\n\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
   },
   {
-    "objectID": "research/index.html#publications",
-    "href": "research/index.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [arXiv]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML2025).\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning SucceedsviaPrioritizing Perplexing Samples (ICML2024). [arXiv]"
-  },
-  {
-    "objectID": "posts/hello-world.html",
-    "href": "posts/hello-world.html",
-    "title": "Hello, Quarto",
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
     "section": "",
-    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
+    "text": "No matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dake Bu",
     "section": "",
-    "text": "卜 大可 ・ ウラナイ タイカ\nPhd Candidate, Department of Computer Science, City University of Hong Kong.\nHi! I am currently a PhD candidate at Optima Group, Department of Computer Science, City University of Hong Kong, advised by Prof. Hau-San Wong and Prof. Qingfu Zhang since 2023 fall. I’m also fortunate to work closely with Prof. Wei Huang and Prof. Andi Han. Before that, I completed my B.S degree in 2023 in Mathematics at Xi’an Jiaotong University, advised by Prof. Hui Li and mentored by Prof. Jian Sun.\nI am currently an incoming one-year intern at CFAR, A*STAR, where I will be supervised by Prof. Atsushi Nitanda. Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the Deep Learning Theory Team at RIKEN AIP under the supervision of Prof. Taiji Suzuki. Earlier, from January to May 2023, I was a research assistant in the LOGO Lab at The Chinese University of Hong Kong, advised by Prof. Tianshu Yu.\nMy research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling and reinforcement learning.\nYou can find a full list of my papers on Google Scholar."
+    "text": "卜 大可 ・ ウラナイ タイカ\nPhd Candidate, Department of Computer Science, City University of Hong Kong.\nHi! I’m currently a PhD candidate at Optima Group, Department of Computer Science, City University of Hong Kong, advised by Prof. Hau-San Wong and Prof. Qingfu Zhang since 2023 fall. I’m also fortunate to work closely with Prof. Wei Huang and Prof. Andi Han. Before that, I completed my B.S in 2023 in Mathematics at Xi’an Jiaotong University, advised by Prof. Hui Li and mentored by Prof. Jian Sun.\nI’m currently an one-year intern at CFAR, A*STAR, where I’m supervised by Prof. Atsushi Nitanda. Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the Deep Learning Theory Team at RIKEN AIP under the supervision of Prof. Taiji Suzuki. Earlier, from January to May 2023, I was a research assistant in the LOGO Lab at The Chinese University of Hong Kong, advised by Prof. Tianshu Yu.\nMy research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling, reinforcement learning and their applications.\nYou can find a full list of my papers on Google Scholar."
   },
   {
     "objectID": "index.html#news",
@@ -84,31 +77,38 @@
     "text": "Site Statistics 📊"
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "No matching items"
+    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
   },
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
+    "objectID": "posts/hello-world.html",
+    "href": "posts/hello-world.html",
+    "title": "Hello, Quarto",
     "section": "",
-    "text": "CS3483 (2025) — Multi-model Interface Design."
+    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
   },
   {
-    "objectID": "teaching/index.html#current-courses",
-    "href": "teaching/index.html#current-courses",
-    "title": "Teaching",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
     "section": "",
-    "text": "CS3483 (2025) — Multi-model Interface Design."
+    "text": "Dake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training.\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Consistency Is Not Always Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning."
   },
   {
-    "objectID": "teaching/index.html#past-courses",
-    "href": "teaching/index.html#past-courses",
-    "title": "Teaching",
-    "section": "Past courses",
-    "text": "Past courses\n\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "Dake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training.\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Consistency Is Not Always Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning."
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [arXiv]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML2025).\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning SucceedsviaPrioritizing Perplexing Samples (ICML2024). [arXiv]"
   }
 ]
