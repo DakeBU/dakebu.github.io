@@ -9,8 +9,7 @@ page-layout: article
 - **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Benefit of
 Curriculum in Transformer Tree-Reasoning Post-Training.
 
-- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Consistency Is Not Always
-Correct: Towards Understanding the Role of Exploration in Post-Training Reasoning.
+- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Post-Training as Reweighting: A Stochastic View of Reasoning Trajectories in Language Models.
 
 ## Publications
 
@@ -18,7 +17,7 @@ Correct: Towards Understanding the Role of Exploration in Post-Training Reasonin
  Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [[arXiv](https://arxiv.org/abs/2508.09820)]
 
 - Bo Xue, **Dake Bu**, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic
- Rewards. The 42nd International Conference on Machine Learning (ICML2025).
+ Rewards. The 42nd International Conference on Machine Learning (ICML2025). [[openreview](https://openreview.net/pdf?id=RTHTyTsRT3)]
 
 - **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness
  Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS
