@@ -6,6 +6,10 @@ page-layout: article
 
 ## Working papers
 
+- **Dake Bu**, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. [[arXiv](https://arxiv.org/abs/2604.24357)]
+
+- Atsushi Nitanda, **Dake Bu**, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [[link](https://sites.google.com/site/atsushinitanda/va-sald)]
+
 - **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Benefit of
 Curriculum in Transformer Tree-Reasoning Post-Training.
 

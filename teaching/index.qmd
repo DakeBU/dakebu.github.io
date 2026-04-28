@@ -6,9 +6,11 @@ page-layout: article
 
 ## Current courses
 
-- **CS3483 (2025)** — Multi-model Interface Design.
+- **CS3481 (2026)** — Fundamentals of Data Science.
 
 ## Past courses
+
+- **CS3483 (2025)** — Multi-model Interface Design.
 
 - **CS3481 (2024)** — Fundamentals of Data Science.
 

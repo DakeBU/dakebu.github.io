@@ -35,6 +35,8 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 
 ## News
 
+- 2026-04 - Two papers on [Slowly Annealed Langevin Dynamics](https://sites.google.com/site/atsushinitanda/va-sald) and [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) are available online.
+- 2025-11 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) is available on arXiv.
 - 2025-01 — Two papers on [theoretical foundation of task vector in In-Context Learning](https://openreview.net/pdf?id=DbUmeNnNpt), and [Multi-objective Reinforcement Learning with Lexicographic Rewards](https://openreview.net/pdf?id=RTHTyTsRT3) are accepted to **ICML 2025**.  
 - 2024-09 — One paper on [In context learning with multi-concept word semantics](https://proceedings.neurips.cc/paper_files/paper/2024/file/73efab19ebde03ff0958f4f155483f57-Paper-Conference.pdf) is accepted to **NeurIPS 2024**.  
 - 2024-01 — One paper on [theoretical foundation of neural active learning](https://arxiv.org/pdf/2406.03944) accepted to **ICML 2025**.  
