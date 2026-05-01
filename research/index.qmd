@@ -14,7 +14,7 @@ page-layout: article
 
 ## Publications
 
-- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning (ICML2026). [[arXiv](https://arxiv.org/pdf/2511.07372)]
+- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning (ICML2026). [[arXiv](https://arxiv.org/pdf/2511.07372)] [[code](https://github.com/DakeBU/Curriculum-Post-training)]
 
 - **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector
  Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [[arXiv](https://arxiv.org/abs/2508.09820)]
