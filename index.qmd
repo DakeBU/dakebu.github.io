@@ -78,3 +78,30 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 :::
 
 :::
+
+<div class="visitor-globe">
+  <iframe
+    src="https://mapmyvisitors.com/web/1c1oz"
+    title="Visitor map"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+<style>
+.visitor-globe {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+
+.visitor-globe iframe {
+  width: 1200px;
+  height: 800px;
+  border: 0;
+  transform: scale(0.25);
+  transform-origin: top center;
+}
+</style>
