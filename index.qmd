@@ -81,11 +81,7 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 
 <div class="visitor-globe">
   <script type="text/javascript" id="mapmyvisitors"
-    src="https://mapmyvisitors.com/map.js?d=1c1oz&cl=ffffff&w=a">
-  </script>
-
-  <script type="text/javascript" id="mmvst_globe"
-    src="https://mapmyvisitors.com/globe.js?d=1c1oz">
+    src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=4xO3iLDzTFL_EWIQet3rdXqr0eP0pjxulJQecHYOusA">
   </script>
 </div>
 
