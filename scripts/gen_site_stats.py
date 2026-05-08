@@ -94,6 +94,13 @@ def fetch_ga():
                 "views": [int(r.metric_values[0].value) for r in resp_country.rows],
             }
         )
+        rename_map = {
+            "China": "China (Mainland)",
+            "Hong Kong": "Hong Kong (China)",
+            "Taiwan": "Taiwan (China)",
+            "Macau": "Macau (China)",
+        }
+        df_country["country"] = df_country["country"].replace(rename_map)
         df_country = (
             df_country[df_country["views"] > 0]
             .sort_values("views", ascending=False)
@@ -110,7 +117,7 @@ def draw_picture(total_views_365, total_users_365, df_daily, df_country):
     plt.rcParams["font.size"] = 6
     plt.rcParams["font.family"] = "DejaVu Sans"
 
-    fig = plt.figure(figsize=(9, 10))
+    fig = plt.figure(figsize=(6.5, 8))
 
     if not df_daily.empty:
         cap = df_daily["views"].quantile(0.99)
