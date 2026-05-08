@@ -11,7 +11,7 @@
     "href": "index.html#news",
     "title": "Dake Bu",
     "section": "News",
-    "text": "News\n\n2026-05 - One paper on Provable benefit of transformer curriculum post-training accepted to ICML 2026 ([code]).\n\n2026-04 - Two papers on Slowly Annealed Langevin Dynamics and A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models ([code]) are available online.\n2025-11 - One paper on Provable benefit of transformer curriculum post-training is available on arXiv.\n2025-01 — Two papers on theoretical foundation of task vector in In-Context Learning, and Multi-objective Reinforcement Learning with Lexicographic Rewards are accepted to ICML 2025.\n\n2024-09 — One paper on In context learning with multi-concept word semantics is accepted to NeurIPS 2024.\n\n2024-01 — One paper on theoretical foundation of neural active learning accepted to ICML 2025."
+    "text": "News\n\n2026-05 - One paper on Provable benefit of transformer curriculum post-training accepted to ICML 2026 ([code]).\n\n2026-04 - Two papers on Slowly Annealed Langevin Dynamics ([code]) and A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models ([code]) are available online.\n2025-11 - One paper on Provable benefit of transformer curriculum post-training is available on arXiv.\n2025-01 — Two papers on theoretical foundation of task vector in In-Context Learning, and Multi-objective Reinforcement Learning with Lexicographic Rewards are accepted to ICML 2025.\n\n2024-09 — One paper on In context learning with multi-concept word semantics is accepted to NeurIPS 2024.\n\n2024-01 — One paper on theoretical foundation of neural active learning accepted to ICML 2025."
   },
   {
     "objectID": "index.html#education",
@@ -49,11 +49,46 @@
     "text": "Site Statistics 📊"
   },
   {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Dake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. [arXiv] [code]\nAtsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [link] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Post-Training as Reweighting: A Stochastic View of Reasoning Trajectories in Language Models."
+  },
+  {
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "Dake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. [arXiv] [code]\nAtsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [link] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Post-Training as Reweighting: A Stochastic View of Reasoning Trajectories in Language Models."
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning (ICML2026). [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [arXiv]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning SucceedsviaPrioritizing Perplexing Samples (ICML2024). [arXiv]"
+  },
+  {
     "objectID": "posts/hello-world.html",
     "href": "posts/hello-world.html",
     "title": "Hello, Quarto",
     "section": "",
     "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "teaching/index.html",
@@ -75,40 +110,5 @@
     "title": "Teaching",
     "section": "Past courses",
     "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
-  },
-  {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Dake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. [arXiv] [code]\nAtsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [link]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Post-Training as Reweighting: A Stochastic View of Reasoning Trajectories in Language Models."
-  },
-  {
-    "objectID": "research/index.html#working-papers",
-    "href": "research/index.html#working-papers",
-    "title": "Research",
-    "section": "",
-    "text": "Dake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. [arXiv] [code]\nAtsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [link]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Post-Training as Reweighting: A Stochastic View of Reasoning Trajectories in Language Models."
-  },
-  {
-    "objectID": "research/index.html#publications",
-    "href": "research/index.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning (ICML2026). [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [arXiv]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning SucceedsviaPrioritizing Perplexing Samples (ICML2024). [arXiv]"
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "No matching items"
   }
 ]
