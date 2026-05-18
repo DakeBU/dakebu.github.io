@@ -40,8 +40,6 @@ My research broadly covers theoretical foundations of deep learning, distributio
 :::
 :::
 
----
-
 :::{.row .g-4}
 
 ::: {.col-lg-8}
@@ -112,33 +110,37 @@ My research broadly covers theoretical foundations of deep learning, distributio
 
 <style>
 .profile-title {
-  display: flex;
-  align-items: baseline;
-  gap: 0.65rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
   flex-wrap: wrap;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .profile-links {
   display: flex;
-  gap: 0.45rem;
+  gap: 0.55rem;
   align-items: center;
   line-height: 1;
+  flex: 0 0 auto;
 }
 
 .profile-links a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 18px;
-  height: 18px;
+  width: 36px;
+  height: 36px;
   color: #111;
   text-decoration: none;
   vertical-align: middle;
 }
 
 .profile-links svg {
-  width: 17px;
-  height: 17px;
+  width: 31px;
+  height: 31px;
   fill: currentColor;
 }
 
@@ -146,19 +148,19 @@ My research broadly covers theoretical foundations of deep learning, distributio
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 17px;
-  height: 17px;
+  width: 31px;
+  height: 31px;
   border-radius: 50%;
   background: #4285f4;
   color: #fff;
   font-family: Arial, sans-serif;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .x-icon {
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 32px;
   font-weight: 500;
 }
 
