@@ -1,45 +1,59 @@
 [
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dake Bu",
     "section": "",
-    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
+    "text": "卜 大可 ・ ウラナイ タイカ\nPhd Candidate, Department of Computer Science, City University of Hong Kong.\nHi! I’m currently a PhD candidate at Optima Group, Department of Computer Science, City University of Hong Kong, advised by Prof. Hau-San Wong and Prof. Qingfu Zhang since 2023 fall. I’m also fortunate to work closely with Prof. Wei Huang and Prof. Andi Han. Before that, I completed my B.S in 2023 in Mathematics at Xi’an Jiaotong University, advised by Prof. Hui Li and mentored by Prof. Jian Sun.\nI’m currently an one-year intern at CFAR, A*STAR, where I’m supervised by Prof. Atsushi Nitanda. Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the Deep Learning Theory Team at RIKEN AIP under the supervision of Prof. Taiji Suzuki. Earlier, from January to May 2023, I was a research assistant in the LOGO Lab at The Chinese University of Hong Kong, advised by Prof. Tianshu Yu.\nMy research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling, reinforcement learning and their applications."
   },
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Dake Bu",
+    "section": "News",
+    "text": "News\n\n2026-05 - Honor to win the Gold Reviewer Award in ICML 2026.\n2026-05 - One paper on Provable benefit of transformer curriculum post-training accepted to ICML 2026 ([code]).\n\n2026-04 - Two papers on Slowly Annealed Langevin Dynamics ([code]) and A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models ([code]) are available online.\n2025-11 - One paper on Provable benefit of transformer curriculum post-training is available on arXiv.\n2025-01 — Two papers on theoretical foundation of task vector in In-Context Learning, and Multi-objective Reinforcement Learning with Lexicographic Rewards are accepted to ICML 2025.\n\n2024-09 — One paper on In context learning with multi-concept word semantics is accepted to NeurIPS 2024.\n\n2024-01 — One paper on theoretical foundation of neural active learning accepted to ICML 2025."
   },
   {
-    "objectID": "teaching/index.html#current-courses",
-    "href": "teaching/index.html#current-courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Dake Bu",
+    "section": "Education",
+    "text": "Education\n\nOct. 2023 – Present — PhD Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).\n\nAug. 2019 – Jun. 2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU)."
   },
   {
-    "objectID": "teaching/index.html#past-courses",
-    "href": "teaching/index.html#past-courses",
-    "title": "Teaching",
-    "section": "Past courses",
-    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "Dake Bu",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nDec. 2025 - Present, - Research Intern, CFAR A*STAR\nDec. 2024 - Oct. 2023 - Research Intern, RIKEN AIP\nJan. 2023- May. 2023 - Research Assistant, The Chinese University of Hong Kong, Shenzhen"
   },
   {
-    "objectID": "posts/hello-world.html",
-    "href": "posts/hello-world.html",
-    "title": "Hello, Quarto",
-    "section": "",
-    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
+    "objectID": "index.html#service",
+    "href": "index.html#service",
+    "title": "Dake Bu",
+    "section": "Service",
+    "text": "Service\n\nArea Chair: ICML 2026 FOGEN; ICLR 2026 DeLTa.\nReviewer: ICML (2024; 2025; 2026); NeurIPS (2024; 2025; 2026); ICLR (2025; 2026)."
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "No matching items"
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Dake Bu",
+    "section": "Contact",
+    "text": "Contact\n\nAffiliation: Department of Computer Science, City University of Hong Kong\n\nLocation: Singapore; Hong Kong; Shenzhen\n\nEmail: &lt;dakebu2-c[at]my.cityu[dot]edu[dot]hk&gt;"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Dake Bu",
+    "section": "Links",
+    "text": "Links\n\n📄 Curriculum Vitae\n\n📚 Google Scholar"
+  },
+  {
+    "objectID": "index.html#site-statistics",
+    "href": "index.html#site-statistics",
+    "title": "Dake Bu",
+    "section": "Site Statistics 📊",
+    "text": "Site Statistics 📊"
   },
   {
     "objectID": "research/index.html",
@@ -63,52 +77,45 @@
     "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning (ICML2026). [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [arXiv]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning SucceedsviaPrioritizing Perplexing Samples (ICML2024). [arXiv]"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Dake Bu",
+    "objectID": "posts/hello-world.html",
+    "href": "posts/hello-world.html",
+    "title": "Hello, Quarto",
     "section": "",
-    "text": "卜 大可 ・ ウラナイ タイカ\nPhd Candidate, Department of Computer Science, City University of Hong Kong.\nHi! I’m currently a PhD candidate at Optima Group, Department of Computer Science, City University of Hong Kong, advised by Prof. Hau-San Wong and Prof. Qingfu Zhang since 2023 fall. I’m also fortunate to work closely with Prof. Wei Huang and Prof. Andi Han. Before that, I completed my B.S in 2023 in Mathematics at Xi’an Jiaotong University, advised by Prof. Hui Li and mentored by Prof. Jian Sun.\nI’m currently an one-year intern at CFAR, A*STAR, where I’m supervised by Prof. Atsushi Nitanda. Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the Deep Learning Theory Team at RIKEN AIP under the supervision of Prof. Taiji Suzuki. Earlier, from January to May 2023, I was a research assistant in the LOGO Lab at The Chinese University of Hong Kong, advised by Prof. Tianshu Yu.\nMy research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling, reinforcement learning and their applications.\nYou can find a full list of my papers on Google Scholar."
+    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Dake Bu",
-    "section": "News",
-    "text": "News\n\n2026-05 - One paper on Provable benefit of transformer curriculum post-training accepted to ICML 2026 ([code]).\n\n2026-04 - Two papers on Slowly Annealed Langevin Dynamics ([code]) and A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models ([code]) are available online.\n2025-11 - One paper on Provable benefit of transformer curriculum post-training is available on arXiv.\n2025-01 — Two papers on theoretical foundation of task vector in In-Context Learning, and Multi-objective Reinforcement Learning with Lexicographic Rewards are accepted to ICML 2025.\n\n2024-09 — One paper on In context learning with multi-concept word semantics is accepted to NeurIPS 2024.\n\n2024-01 — One paper on theoretical foundation of neural active learning accepted to ICML 2025."
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Dake Bu",
-    "section": "Education",
-    "text": "Education\n\nOct. 2023 – Present — PhD Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).\n\nAug. 2019 – Jun. 2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU)."
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "No matching items"
   },
   {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "Dake Bu",
-    "section": "Work Experience",
-    "text": "Work Experience\n\nDec. 2025 - Present, - Research Intern, CFAR A*STAR\nDec. 2024 - Oct. 2023 - Research Intern, RIKEN AIP\nJan. 2023- May. 2023 - Research Assistant, The Chinese University of Hong Kong, Shenzhen"
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
   },
   {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Dake Bu",
-    "section": "Contact",
-    "text": "Contact\n\nAffiliation: Department of Computer Science, City University of Hong Kong\n\nLocation: Singapore; Hong Kong; Shenzhen\n\nEmail: &lt;dakebu2-c[at]my.cityu[dot]edu[dot]hk&gt;"
+    "objectID": "teaching/index.html#current-courses",
+    "href": "teaching/index.html#current-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
   },
   {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "Dake Bu",
-    "section": "Links",
-    "text": "Links\n\n📄 Curriculum Vitae\n\n📚 Google Scholar"
-  },
-  {
-    "objectID": "index.html#site-statistics",
-    "href": "index.html#site-statistics",
-    "title": "Dake Bu",
-    "section": "Site Statistics 📊",
-    "text": "Site Statistics 📊"
+    "objectID": "teaching/index.html#past-courses",
+    "href": "teaching/index.html#past-courses",
+    "title": "Teaching",
+    "section": "Past courses",
+    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
   }
 ]

@@ -1,0 +1,15 @@
+ cv/cv.pdf                                                                         | Bin [31m224900[m -> [32m203684[m bytes
+ docs/cv/cv.pdf                                                                    | Bin [31m224900[m -> [32m203684[m bytes
+ docs/cv/index.html                                                                |   6 [32m+[m[31m-[m
+ docs/index.html                                                                   |  31 [32m++++[m[31m-[m
+ docs/posts/hello-world.html                                                       |   6 [32m+[m[31m-[m
+ docs/posts/index.html                                                             |   6 [32m+[m[31m-[m
+ docs/posts/index.xml                                                              |   4 [32m+[m[31m-[m
+ docs/research/index.html                                                          |   6 [32m+[m[31m-[m
+ docs/search.json                                                                  | 137 [32m++++++++++++[m[31m-----------[m
+ docs/site_libs/bootstrap/bootstrap-73c6698fa60f3e9d673d620b7b55b0d6.min.css       |  12 [31m--[m
+ .../quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css   | 236 [31m---------------------------------------[m
+ docs/sitemap.xml                                                                  |  22 [32m++[m[31m--[m
+ docs/teaching/index.html                                                          |   6 [32m+[m[31m-[m
+ index.qmd                                                                         |  31 [32m++++[m[31m-[m
+ 14 files changed, 157 insertions(+), 346 deletions(-)

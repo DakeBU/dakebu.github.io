@@ -22,7 +22,17 @@ I'm currently an one-year intern at CFAR, A*STAR, where I'm supervised by Prof. 
 
 My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling, reinforcement learning and their applications.
 
-You can find a full list of my papers on [Google Scholar](https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate).
+<div class="profile-links">
+  <a href="https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate" aria-label="Google Scholar">
+    <img src="https://cdn.simpleicons.org/googlescholar/4285F4" alt="Google Scholar">
+  </a>
+  <a href="https://github.com/DakeBU" aria-label="GitHub">
+    <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub">
+  </a>
+  <a href="https://x.com/dakebu_cityu" aria-label="X">
+    <img src="https://cdn.simpleicons.org/x/000000" alt="X">
+  </a>
+</div>
 
 :::
 :::
@@ -35,6 +45,7 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 
 ## News
 
+- 2026-05 - Honor to win the Gold Reviewer Award in ICML 2026.
 - 2026-05 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) accepted to **ICML 2026** ([[code](https://github.com/DakeBU/Curriculum-Post-training)]).  
 - 2026-04 - Two papers on [Slowly Annealed Langevin Dynamics](https://sites.google.com/site/atsushinitanda/va-sald) ([[code](https://github.com/anitan0925/sald/tree/main)]) and [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) ([[code](https://github.com/DakeBU/DPRM-DLLM)]) are available online.
 - 2025-11 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) is available on arXiv.
@@ -52,6 +63,11 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 - Dec. 2025 - Present, - Research Intern, CFAR A*STAR
 - Dec. 2024 - Oct. 2023 - Research Intern, RIKEN AIP
 - Jan. 2023- May. 2023 - Research Assistant, The Chinese University of Hong Kong, Shenzhen
+
+## Service
+
+- Area Chair: ICML 2026 FOGEN; ICLR 2026 DeLTa.
+- Reviewer: ICML (2024; 2025; 2026); NeurIPS (2024; 2025; 2026); ICLR (2025; 2026).
 
 :::
 
@@ -86,6 +102,19 @@ You can find a full list of my papers on [Google Scholar](https://scholar.google
 </div>
 
 <style>
+.profile-links {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+.profile-links img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
 .visitor-globe {
   display: flex;
   justify-content: center;
