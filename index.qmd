@@ -11,7 +11,22 @@ page-layout: full
 
 ::: {.col-md-8}
 
-# Dake Bu
+<h1 class="profile-title">
+  <span>Dake Bu</span>
+  <span class="profile-links">
+    <a href="https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate" aria-label="Google Scholar" title="Google Scholar">
+      <span class="scholar-icon">G</span>
+    </a>
+    <a href="https://github.com/DakeBU" aria-label="GitHub" title="GitHub">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 .5C5.7.5.8 5.4.8 11.7c0 4.9 3.2 9.1 7.7 10.6.6.1.8-.2.8-.5v-2c-3.1.7-3.8-1.3-3.8-1.3-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3 0 0 .9-.3 3.1 1.1.9-.2 1.8-.4 2.8-.4s1.9.1 2.8.4c2.1-1.4 3.1-1.1 3.1-1.1.6 1.5.2 2.7.1 3 .7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.3.8 1 .8 2.1v3c0 .3.2.6.8.5 4.5-1.5 7.7-5.7 7.7-10.6C23.2 5.4 18.3.5 12 .5Z"/>
+      </svg>
+    </a>
+    <a href="https://x.com/dakebu_cityu" aria-label="X" title="X">
+      <span class="x-icon">X</span>
+    </a>
+  </span>
+</h1>
 <span class="name-alt">卜 大可 ・ ウラナイ タイカ</span>
 
 _{{< var role >}}, {{< var affiliation >}}._
@@ -21,18 +36,6 @@ Hi! I'm currently a PhD candidate at [Optima Group](https://optima.cs.cityu.edu.
 I'm currently an one-year intern at CFAR, A*STAR, where I'm supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the [Deep Learning Theory Team](https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/index.html) at RIKEN AIP under the supervision of Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/). Earlier, from January to May 2023, I was a research assistant in the [LOGO](https://mypage.cuhk.edu.cn/academics/yutianshu/LOGO.html) Lab at The Chinese University of Hong Kong, advised by Prof. [Tianshu Yu](https://mypage.cuhk.edu.cn/academics/yutianshu/).
 
 My research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling, reinforcement learning and their applications.
-
-<div class="profile-links">
-  <a href="https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate" aria-label="Google Scholar">
-    <img src="https://cdn.simpleicons.org/googlescholar/4285F4" alt="Google Scholar">
-  </a>
-  <a href="https://github.com/DakeBU" aria-label="GitHub">
-    <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub">
-  </a>
-  <a href="https://x.com/dakebu_cityu" aria-label="X">
-    <img src="https://cdn.simpleicons.org/x/000000" alt="X">
-  </a>
-</div>
 
 :::
 :::
@@ -45,7 +48,7 @@ My research broadly covers theoretical foundations of deep learning, distributio
 
 ## News
 
-- 2026-05 - Honor to win the Gold Reviewer Award in ICML 2026.
+- 2026-05 - Honor to win the **Gold Reviewer Award** in ICML 2026.
 - 2026-05 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) accepted to **ICML 2026** ([[code](https://github.com/DakeBU/Curriculum-Post-training)]).  
 - 2026-04 - Two papers on [Slowly Annealed Langevin Dynamics](https://sites.google.com/site/atsushinitanda/va-sald) ([[code](https://github.com/anitan0925/sald/tree/main)]) and [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) ([[code](https://github.com/DakeBU/DPRM-DLLM)]) are available online.
 - 2025-11 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) is available on arXiv.
@@ -89,30 +92,80 @@ My research broadly covers theoretical foundations of deep learning, distributio
 
 ## Site Statistics 📊
 
+<div class="site-statistics-content">
+
 ![](image/site_statistics.png){width=60%}
 
-:::
+</div>
 
 :::
 
-<div class="visitor-globe">
+:::
+
+<div class="site-statistics-content">
+  <div class="visitor-globe">
   <script type="text/javascript" id="mapmyvisitors"
     src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=4xO3iLDzTFL_EWIQet3rdXqr0eP0pjxulJQecHYOusA">
   </script>
+  </div>
 </div>
 
 <style>
-.profile-links {
+.profile-title {
   display: flex;
-  gap: 0.7rem;
-  align-items: center;
-  margin-top: 0.7rem;
+  align-items: baseline;
+  gap: 0.65rem;
+  flex-wrap: wrap;
 }
 
-.profile-links img {
-  width: 20px;
-  height: 20px;
-  display: block;
+.profile-links {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  line-height: 1;
+}
+
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  color: #111;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.profile-links svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+.scholar-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #4285f4;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.x-icon {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.site-statistics-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .visitor-globe {
