@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dakebu.github.io/cv/index.html</loc>
-    <lastmod>2026-05-26T20:03:20.223Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dakebu.github.io/teaching/index.html</loc>
-    <lastmod>2026-05-26T20:03:20.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dakebu.github.io/posts/hello-world.html</loc>
-    <lastmod>2026-05-26T20:03:20.233Z</lastmod>
-  </url>
-  <url>
     <loc>https://dakebu.github.io/posts/index.html</loc>
-    <lastmod>2026-05-26T20:03:20.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dakebu.github.io/research/index.html</loc>
-    <lastmod>2026-05-26T20:03:20.234Z</lastmod>
+    <lastmod>2026-05-27T20:09:11.460Z</lastmod>
   </url>
   <url>
     <loc>https://dakebu.github.io/index.html</loc>
-    <lastmod>2026-05-26T20:03:20.232Z</lastmod>
+    <lastmod>2026-05-27T20:09:11.459Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dakebu.github.io/cv/index.html</loc>
+    <lastmod>2026-05-27T20:09:11.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dakebu.github.io/teaching/index.html</loc>
+    <lastmod>2026-05-27T20:09:11.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dakebu.github.io/research/index.html</loc>
+    <lastmod>2026-05-27T20:09:11.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dakebu.github.io/posts/hello-world.html</loc>
+    <lastmod>2026-05-27T20:09:11.459Z</lastmod>
   </url>
 </urlset>
