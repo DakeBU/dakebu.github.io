@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nDake Bu   G        X  \n",
     "section": "",
-    "text": "卜 大可 ・ ウラナイ タイカ\nPhd Candidate, Department of Computer Science, City University of Hong Kong.\nHi! I’m currently a PhD candidate at Optima Group, Department of Computer Science, City University of Hong Kong, advised by Prof. Hau-San Wong and Prof. Qingfu Zhang since 2023 fall. I’m also fortunate to work closely with Prof. Wei Huang and Prof. Andi Han. Before that, I completed my B.S in 2023 in Mathematics at Xi’an Jiaotong University, advised by Prof. Hui Li and mentored by Prof. Jian Sun.\nI’m currently an one-year intern at CFAR, A*STAR, where I’m supervised by Prof. Atsushi Nitanda. Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the Deep Learning Theory Team at RIKEN AIP under the supervision of Prof. Taiji Suzuki. From May to June 3, 2026, I visited the School of Mathematics and Statistics at the University of Sydney as a visiting student, supervised by Prof. Andi Han. Earlier, from January to May 2023, I was a research assistant in the LOGO Lab at The Chinese University of Hong Kong, advised by Prof. Tianshu Yu.\nMy research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling, reinforcement learning and their applications."
+    "text": "卜 大可 ・ ウラナイ タイカ\nPhd Candidate, Department of Computer Science, City University of Hong Kong.\nHi! I’m currently a PhD candidate at Optima Group, Department of Computer Science, City University of Hong Kong, advised by Prof. Hau-San Wong and Prof. Qingfu Zhang since 2023 fall. I’m also fortunate to work closely with Prof. Wei Huang and Prof. Andi Han. Before that, I completed my B.S in 2023 in Mathematics at Xi’an Jiaotong University, advised by Prof. Hui Li and mentored by Prof. Jian Sun.\nI’m currently an one-year intern at CFAR, A*STAR, where I’m supervised by Prof. Atsushi Nitanda. Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the Deep Learning Theory Team at RIKEN AIP under the supervision of Prof. Taiji Suzuki. From May 26 to June 3, 2026, I visited the School of Mathematics and Statistics at the University of Sydney as a visiting student, supervised by Prof. Andi Han. Earlier, from January to May 2023, I was a research assistant in the LOGO Lab at The Chinese University of Hong Kong, advised by Prof. Tianshu Yu.\nMy research broadly covers theoretical foundations of deep learning, distribution optimization, mean-field optimization, sampling, reinforcement learning and their applications."
   },
   {
     "objectID": "index.html#news",
@@ -63,34 +56,6 @@
     "text": "Site Statistics 📊"
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
-  },
-  {
-    "objectID": "teaching/index.html#current-courses",
-    "href": "teaching/index.html#current-courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
-  },
-  {
-    "objectID": "teaching/index.html#past-courses",
-    "href": "teaching/index.html#past-courses",
-    "title": "Teaching",
-    "section": "Past courses",
-    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
-  },
-  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
@@ -117,5 +82,40 @@
     "title": "Hello, Quarto",
     "section": "",
     "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
+  },
+  {
+    "objectID": "teaching/index.html#current-courses",
+    "href": "teaching/index.html#current-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
+  },
+  {
+    "objectID": "teaching/index.html#past-courses",
+    "href": "teaching/index.html#past-courses",
+    "title": "Teaching",
+    "section": "Past courses",
+    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
   }
 ]
