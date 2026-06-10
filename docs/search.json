@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nDake Bu   G        X  \n",
@@ -56,6 +63,34 @@
     "text": "Site Statistics 📊"
   },
   {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
+  },
+  {
+    "objectID": "teaching/index.html#current-courses",
+    "href": "teaching/index.html#current-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
+  },
+  {
+    "objectID": "teaching/index.html#past-courses",
+    "href": "teaching/index.html#past-courses",
+    "title": "Teaching",
+    "section": "Past courses",
+    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
+  },
+  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
@@ -82,40 +117,5 @@
     "title": "Hello, Quarto",
     "section": "",
     "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
-  },
-  {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
-  },
-  {
-    "objectID": "teaching/index.html#current-courses",
-    "href": "teaching/index.html#current-courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
-  },
-  {
-    "objectID": "teaching/index.html#past-courses",
-    "href": "teaching/index.html#past-courses",
-    "title": "Teaching",
-    "section": "Past courses",
-    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
   }
 ]
