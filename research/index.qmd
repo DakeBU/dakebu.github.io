@@ -8,9 +8,9 @@ page-layout: article
 
 - **Dake Bu**, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. [[arXiv](https://arxiv.org/abs/2604.24357)] [[code](https://github.com/DakeBU/DPRM-DLLM)]
 
-- Atsushi Nitanda, **Dake Bu**, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [[link](https://sites.google.com/site/atsushinitanda/va-sald)] [[code](https://github.com/anitan0925/sald/tree/main)]
+- Atsushi Nitanda, **Dake Bu**, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [[arXiv](https://arxiv.org/pdf/2605.07950)] [[code](https://github.com/anitan0925/sald/tree/main)]
 
-- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Post-Training as Reweighting: A Stochastic View of Reasoning Trajectories in Language Models.
+- **Dake Bu**, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories.
 
 ## Publications
 
