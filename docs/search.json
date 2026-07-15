@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
+  },
+  {
+    "objectID": "teaching/index.html#current-courses",
+    "href": "teaching/index.html#current-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "CS3481 (2026) — Fundamentals of Data Science."
+  },
+  {
+    "objectID": "teaching/index.html#past-courses",
+    "href": "teaching/index.html#past-courses",
+    "title": "Teaching",
+    "section": "Past courses",
+    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/hello-world.html",
+    "href": "posts/hello-world.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Atsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [arXiv] [code]"
+  },
+  {
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "Atsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [arXiv] [code]"
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. (ICML2026 Fogen Oral) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories. (ICML2026 Fogen Spotlight) [arXiv] ([code]).\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning (ICML2026). [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [arXiv]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning SucceedsviaPrioritizing Perplexing Samples (ICML2024). [arXiv]"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nDake Bu   G        X  \n",
@@ -54,68 +117,5 @@
     "title": "\nDake Bu   G        X  \n",
     "section": "Site Statistics 📊",
     "text": "Site Statistics 📊"
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
-  },
-  {
-    "objectID": "teaching/index.html#current-courses",
-    "href": "teaching/index.html#current-courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "CS3481 (2026) — Fundamentals of Data Science."
-  },
-  {
-    "objectID": "teaching/index.html#past-courses",
-    "href": "teaching/index.html#past-courses",
-    "title": "Teaching",
-    "section": "Past courses",
-    "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
-  },
-  {
-    "objectID": "posts/hello-world.html",
-    "href": "posts/hello-world.html",
-    "title": "Hello, Quarto",
-    "section": "",
-    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Atsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [arXiv] [code]"
-  },
-  {
-    "objectID": "research/index.html#working-papers",
-    "href": "research/index.html#working-papers",
-    "title": "Research",
-    "section": "",
-    "text": "Atsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. [arXiv] [code]"
-  },
-  {
-    "objectID": "research/index.html#publications",
-    "href": "research/index.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. (ICML2026 Fogen Oral) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories. (ICML2026 Fogen Spotlight) [arXiv] ([code]).\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning (ICML2026). [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML2025). [arXiv]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong: Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong: Provably Neural Active Learning SucceedsviaPrioritizing Perplexing Samples (ICML2024). [arXiv]"
   }
 ]
