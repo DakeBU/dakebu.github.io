@@ -54,10 +54,10 @@ My research broadly covers theoretical foundations of deep learning, distributio
 - 2026-05 - Honor to win the **Gold Reviewer Award** in ICML 2026.
 - 2026-05 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) ([[code](https://github.com/DakeBU/Curriculum-Post-training)]) accepted to **ICML 2026** ([[code](https://github.com/DakeBU/Curriculum-Post-training)]).  
 - 2026-04 - Two papers on [Slowly Annealed Langevin Dynamics](https://arxiv.org/pdf/2605.07950) ([[code](https://github.com/anitan0925/sald/tree/main)]) and [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) ([[code](https://github.com/DakeBU/DPRM-DLLM)]) are available online.
-- 2025-11 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) is available on arXiv.
-- 2025-01 — Two papers on [theoretical foundation of task vector in In-Context Learning](https://openreview.net/pdf?id=DbUmeNnNpt), and [Multi-objective Reinforcement Learning with Lexicographic Rewards](https://openreview.net/pdf?id=RTHTyTsRT3) are accepted to **ICML 2025**.  
-- 2024-09 — One paper on [In context learning with multi-concept word semantics](https://proceedings.neurips.cc/paper_files/paper/2024/file/73efab19ebde03ff0958f4f155483f57-Paper-Conference.pdf) is accepted to **NeurIPS 2024**.  
-- 2024-01 — One paper on [theoretical foundation of neural active learning](https://arxiv.org/pdf/2406.03944) accepted to **ICML 2024**.  
+- 2025-11 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) ([[code](https://github.com/DakeBU/Curriculum-Post-training)]) is available on arXiv.
+- 2025-01 — Two papers on [theoretical foundation of task vector in In-Context Learning](https://openreview.net/pdf?id=DbUmeNnNpt) ([[code](https://github.com/DakeBU/In-Context-Vector-Arithmetic-via-Retrieving-Task-Concepts)]), and [Multi-objective Reinforcement Learning with Lexicographic Rewards](https://openreview.net/pdf?id=RTHTyTsRT3) are accepted to **ICML 2025**.  
+- 2024-09 — One paper on [In context learning with multi-concept word semantics](https://proceedings.neurips.cc/paper_files/paper/2024/file/73efab19ebde03ff0958f4f155483f57-Paper-Conference.pdf) ([[code](https://github.com/DakeBU/Transformers-Harness-Multi-Concept-Word-Semantics-for-Efficient-In-Context-Learning)]) is accepted to **NeurIPS 2024**.  
+- 2024-01 — One paper on [theoretical foundation of neural active learning](https://arxiv.org/pdf/2406.03944) ([[code](https://github.com/DakeBU/Neural-Active-Learning-Succeeds-via-Prioritizing-Perplexing-Samples)]) accepted to **ICML 2024**.  
 
 ## Education
 
