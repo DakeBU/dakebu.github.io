@@ -46,6 +46,7 @@ My research broadly covers theoretical foundations of deep learning, distributio
 
 ## News
 
+- 22 Jun 2026–01 Jul 2026 - Attended the [Annual Summer School on Mathematical Aspects of Data Science](https://ims.nus.edu.sg/events/ma_datascience2026/) at the Institute for Mathematical Sciences, National University of Singapore.
 - 2026-06 - Our github repo [Auto-Lean-in-Sleep: Block Encoding for Quantum Computing](https://github.com/DakeBU/Quantum-Computing-Block-Encoding) is available, along with user-facing [website](https://dakebu.github.io/Quantum-Computing-Block-Encoding/) with API (Under Constuction). The arXiv version is comming soon. Any feedback is welcome!
 - 2026-06 - Our paper on [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) ([[code](https://github.com/DakeBU/DPRM-DLLM)]) is selected as **Oral**, and [theoretical explanation and solution to exploration dilemma in LLM post-training](https://openreview.net/forum?id=3dPpfbmZ3n) ([[code](https://github.com/DakeBU/Distribution-Bias-of-Post-training)]) is rewarded as **spotlight** in **ICML 2026 Fogen**. 
 - 2026-05 to 2026-06 - Visited the School of Mathematics and Statistics at the University of Sydney as a visiting student, supervised by Prof. [Andi Han](https://andihan3.github.io/).
