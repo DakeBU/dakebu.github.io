@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dakebu.github.io/research/index.html</loc>
-    <lastmod>2026-08-06T23:53:47.131Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dakebu.github.io/teaching/index.html</loc>
-    <lastmod>2026-08-06T23:53:47.131Z</lastmod>
+    <loc>https://dakebu.github.io/index.html</loc>
+    <lastmod>2026-08-07T18:48:58.996Z</lastmod>
   </url>
   <url>
     <loc>https://dakebu.github.io/posts/index.html</loc>
-    <lastmod>2026-08-06T23:53:47.131Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dakebu.github.io/index.html</loc>
-    <lastmod>2026-08-06T23:53:47.130Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dakebu.github.io/posts/hello-world.html</loc>
-    <lastmod>2026-08-06T23:53:47.130Z</lastmod>
+    <lastmod>2026-08-07T18:48:58.997Z</lastmod>
   </url>
   <url>
     <loc>https://dakebu.github.io/cv/index.html</loc>
-    <lastmod>2026-08-06T23:53:47.121Z</lastmod>
+    <lastmod>2026-08-07T18:48:58.987Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dakebu.github.io/teaching/index.html</loc>
+    <lastmod>2026-08-07T18:48:58.997Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dakebu.github.io/posts/hello-world.html</loc>
+    <lastmod>2026-08-07T18:48:58.996Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dakebu.github.io/research/index.html</loc>
+    <lastmod>2026-08-07T18:48:58.997Z</lastmod>
   </url>
 </urlset>
