@@ -7,11 +7,11 @@ page-layout: article
 
 - Atsushi Nitanda, **Dake Bu**, Yueming Lyu, Tanya Veeravalli. *Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation.* [[arXiv](https://arxiv.org/pdf/2605.07950)] [[code](https://github.com/anitan0925/sald/tree/main)]
 
-- **ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing.** [[GitHub](https://github.com/DakeBU/Quantum-Computing-Block-Encoding)] [arXiv under Prepare]
+- **Dake Bu**, Xiajie Huang, Nana Liu, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. *ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing.* [[GitHub](https://github.com/DakeBU/Quantum-Computing-Block-Encoding)] [arXiv under Preparation]
 
-- **Auto-Sampling-Theory-In-Sleep: A Hierarchical Automated Theorem Proving System for Sampling Theory.** [[GitHub](https://github.com/DakeBU/Auto-Sampling-Theory-In-Sleep)] [arXiv under Prepare]
+- **Dake Bu**, Ji Cheng, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. *Auto-Sampling-Theory-In-Sleep: A Hierarchical Automated Theorem Proving System for Sampling Theory.* [[GitHub](https://github.com/DakeBU/Auto-Sampling-Theory-In-Sleep)] [arXiv under Preparation]
 
-- **ABRL: A Target-Faithful Autoformalization Harness and Lean 4 Library for Bandit and Reinforcement Learning Theory.** [[GitHub](https://github.com/DakeBU/Auto-Bandit-RL-Proof-In-Sleep/)] [arXiv under Prepare]
+- **Dake Bu**, Ji Cheng, Bo Xue, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. *ABRL: A Target-Faithful Autoformalization Harness and Lean 4 Library for Bandit and Reinforcement Learning Theory.* [[GitHub](https://github.com/DakeBU/Auto-Bandit-RL-Proof-In-Sleep/)] [arXiv under Preparation]
 
 ## Publications
 
