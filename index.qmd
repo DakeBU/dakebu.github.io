@@ -3,6 +3,7 @@ title: ""
 page-layout: full
 ---
 
+```{=html}
 <div class="homepage">
 
 <section class="home-profile">
@@ -118,3 +119,4 @@ page-layout: full
 </div>
 
 </div>
+```
