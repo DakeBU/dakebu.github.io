@@ -7,7 +7,7 @@ page-layout: full
 <div class="homepage">
 
 <section class="home-profile">
-  <aside class="home-identity" aria-label="Profile information">
+  <div class="home-identity" aria-label="Profile information">
     <img class="home-portrait" src="image/Fig_small.jpg" alt="Portrait of Dake Bu">
     <h1>Dake Bu</h1>
     <span class="home-name-alt">卜 大可 ・ ウラナイ タイカ</span>
@@ -19,7 +19,7 @@ page-layout: full
       <a href="https://sg.linkedin.com/in/dake-bu-91a0563ab" aria-label="LinkedIn"><span class="identity-link-mark">in</span>LinkedIn</a>
       <a href="cv/cv.pdf" aria-label="Curriculum Vitae"><span class="identity-link-mark wide">CV</span>CV</a>
     </div>
-  </aside>
+  </div>
 
   <div class="home-bio">
     <h2>About</h2>
@@ -118,12 +118,12 @@ page-layout: full
     <p class="research-more"><a href="research/">See the complete research list →</a></p>
   </section>
 
-  <aside class="visitor-panel" aria-label="Visitors">
+  <div class="visitor-panel" role="complementary" aria-label="Visitors">
     <h2>Visitors</h2>
     <div class="visitor-map">
       <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=4xO3iLDzTFL_EWIQet3rdXqr0eP0pjxulJQecHYOusA"></script>
     </div>
-  </aside>
+  </div>
 </div>
 
 </div>
