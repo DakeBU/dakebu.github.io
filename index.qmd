@@ -3,188 +3,118 @@ title: ""
 page-layout: full
 ---
 
-:::{.row .g-4 .align-items-center}
+<div class="homepage">
 
-::: {.col-md-4 .text-center}
-![](image/Fig_small.jpg){.img-fluid .rounded-circle width=220}
-:::
+<section class="home-profile">
+  <aside class="home-identity" aria-label="Profile information">
+    <img class="home-portrait" src="image/Fig_small.jpg" alt="Portrait of Dake Bu">
+    <h1>Dake Bu</h1>
+    <span class="home-name-alt">卜 大可 ・ ウラナイ タイカ</span>
+    <p class="home-role">Ph.D. Candidate, City University of Hong Kong<br>Research Intern, CFAR, A*STAR</p>
+    <p class="home-contact">dakebu2-c [at] my.cityu [dot] edu [dot] hk</p>
+    <div class="home-identity-links">
+      <a href="https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate" aria-label="Google Scholar"><span class="identity-link-mark">G</span>Scholar</a>
+      <a href="https://github.com/DakeBU" aria-label="GitHub"><span class="identity-link-mark wide">GH</span>GitHub</a>
+      <a href="https://sg.linkedin.com/in/dake-bu-91a0563ab" aria-label="LinkedIn"><span class="identity-link-mark">in</span>LinkedIn</a>
+      <a href="cv/cv.pdf" aria-label="Curriculum Vitae"><span class="identity-link-mark wide">CV</span>CV</a>
+    </div>
+  </aside>
 
-::: {.col-md-8}
-
-<h1 class="profile-title">
-  <span>Dake Bu</span>
-  <span class="profile-links">
-    <a href="https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate" aria-label="Google Scholar" title="Google Scholar">
-      <span class="scholar-icon">G</span>
-    </a>
-    <a href="https://github.com/DakeBU" aria-label="GitHub" title="GitHub">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 .5C5.7.5.8 5.4.8 11.7c0 4.9 3.2 9.1 7.7 10.6.6.1.8-.2.8-.5v-2c-3.1.7-3.8-1.3-3.8-1.3-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3 0 0 .9-.3 3.1 1.1.9-.2 1.8-.4 2.8-.4s1.9.1 2.8.4c2.1-1.4 3.1-1.1 3.1-1.1.6 1.5.2 2.7.1 3 .7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.3.8 1 .8 2.1v3c0 .3.2.6.8.5 4.5-1.5 7.7-5.7 7.7-10.6C23.2 5.4 18.3.5 12 .5Z"/>
-      </svg>
-    </a>
-    <a href="https://x.com/dakebu_cityu" aria-label="X" title="X">
-      <span class="x-icon">X</span>
-    </a>
-  </span>
-</h1>
-<span class="name-alt">卜 大可 ・ ウラナイ タイカ</span>
-
-_{{< var role >}}, {{< var affiliation >}}._
-
-Hi! I'm currently a PhD candidate at [Optima Group](https://optima.cs.cityu.edu.hk/), Department of Computer Science, City University of Hong Kong, advised by Prof. [Hau-San Wong](https://scholars.cityu.edu.hk/en/persons/cshswong/) and Prof. [Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html) since 2023 fall. I’m also fortunate to work closely with Prof. [Wei Huang](https://weihuang05.github.io) and Prof. [Andi Han](https://andihan3.github.io/). Before that, I completed my B.S in 2023 in Mathematics at Xi'an Jiaotong University, advised by Prof. [Hui Li](https://scholar.google.com/citations?hl=en&user=BhgtoWMAAAAJ) and mentored by Prof. [Jian Sun](https://scholar.google.com/citations?user=SSgNWOMAAAAJ&hl=En).
-
-I'm currently an one-year intern at CFAR, A*STAR, where I'm supervised by Prof. [Atsushi Nitanda](https://sites.google.com/site/atsushinitanda/home). Prior to this, I spent one year (2024–2025) as a research intern at the University of Tokyo, working at the [Deep Learning Theory Team](https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/index.html) at RIKEN AIP under the supervision of Prof. [Taiji Suzuki](https://ibis.t.u-tokyo.ac.jp/suzuki/). From May to June, 2026, I visited the School of Mathematics and Statistics at the University of Sydney as a visiting student, supervised by Prof. [Andi Han](https://andihan3.github.io/). Earlier, from January to May 2023, I was a research assistant in the [LOGO](https://mypage.cuhk.edu.cn/academics/yutianshu/LOGO.html) Lab at The Chinese University of Hong Kong, advised by Prof. [Tianshu Yu](https://mypage.cuhk.edu.cn/academics/yutianshu/).
-
-My Research focuses on the theory and algorithms of large-scale machine learning systems, spanning emergent in-context learning, Agentic AI, LLM and diffusion post-training, reinforcement learning, and non-log concave sampling. My aim is to combine theory-grounded algorithm design and reproducible experiments to improve foundation-model training and inference.
-
-:::
-:::
-
-:::{.row .g-4}
-
-::: {.col-lg-8}
-
-## News
-
-- 2026-07 - Our github repo [ABRL: A Target-Faithful Autoformalization Harness and Lean 4 Library for Bandit and Reinforcement Learning Theory](https://github.com/DakeBU/Auto-Bandit-RL-Proof-In-Sleep/) and [Auto-Sampling-Theory-In-Sleep: A Hierarchical Automated Theorem Proving System for Sampling Theory](https://github.com/DakeBU/Auto-Sampling-Theory-In-Sleep) are available. Public lean libraries [BanditRLlib](https://dakebu.github.io/Auto-Bandit-RL-Proof-In-Sleep/) and [Samplinglib](https://dakebu.github.io/Auto-Sampling-Theory-In-Sleep/index.html) are welcoming contributors! The arXiv preparation is on the way. Please feel free to reach out and provide suggestions!
-- 2026-06 - Attended the [Annual Summer School on Mathematical Aspects of Data Science](https://ims.nus.edu.sg/events/ma_datascience2026/) at the Institute for Mathematical Sciences, National University of Singapore.
-- 2026-06 - Our github repo [ASPBE:Automatic State Preparation and Block Encoding for Quantum Computing](https://github.com/DakeBU/Quantum-Computing-Block-Encoding) is available, along with public lean library [QuantumComputinglib](https://dakebu.github.io/Quantum-Computing-Block-Encoding/) and user-facing [website](https://dakebu.github.io/Quantum-Computing-Block-Encoding/task-builder/index.html) (Under Constuction). The arXiv version is comming soon. Any feedback is welcome!
-- 2026-06 - Our paper on [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) ([[code](https://github.com/DakeBU/DPRM-DLLM)]) is selected as **Oral**, and [theoretical explanation and solution to exploration dilemma in LLM post-training](https://openreview.net/forum?id=3dPpfbmZ3n) ([[code](https://github.com/DakeBU/Distribution-Bias-of-Post-training)]) is rewarded as **spotlight** in **ICML 2026 Fogen**. 
-- 2026-05 to 2026-06 - Visited the School of Mathematics and Statistics at the University of Sydney as a visiting student, supervised by Prof. [Andi Han](https://andihan3.github.io/).
-- 2026-05 - Gave a talk titled "Langevin Dynamics with Partial Structure: From Guided Generative Sampling to Mean-Field Feature Learning" at the University of Sydney.
-- 2026-05 - Presented [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) ([[code](https://github.com/DakeBU/DPRM-DLLM)]) at the AIVP-Joint workshop between A*STAR, RIKEN AIP, and NTU at Nanyang Technological University.
-- 2026-05 - Honor to win the **Gold Reviewer Award** in ICML 2026.
-- 2026-05 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) ([[code](https://github.com/DakeBU/Curriculum-Post-training)]) accepted to **ICML 2026** ([[code](https://github.com/DakeBU/Curriculum-Post-training)]).  
-- 2026-04 - Two papers on [Slowly Annealed Langevin Dynamics](https://arxiv.org/pdf/2605.07950) ([[code](https://github.com/anitan0925/sald/tree/main)]) and [A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models](https://arxiv.org/pdf/2604.24357) ([[code](https://github.com/DakeBU/DPRM-DLLM)]) are available online.
-- 2025-11 - One paper on [Provable benefit of transformer curriculum post-training](https://arxiv.org/pdf/2511.07372) ([[code](https://github.com/DakeBU/Curriculum-Post-training)]) is available on arXiv.
-- 2025-01 — Two papers on [theoretical foundation of task vector in In-Context Learning](https://openreview.net/pdf?id=DbUmeNnNpt) ([[code](https://github.com/DakeBU/In-Context-Vector-Arithmetic-via-Retrieving-Task-Concepts)]), and [Multi-objective Reinforcement Learning with Lexicographic Rewards](https://openreview.net/pdf?id=RTHTyTsRT3) are accepted to **ICML 2025**.  
-- 2024-09 — One paper on [In context learning with multi-concept word semantics](https://proceedings.neurips.cc/paper_files/paper/2024/file/73efab19ebde03ff0958f4f155483f57-Paper-Conference.pdf) ([[code](https://github.com/DakeBU/Transformers-Harness-Multi-Concept-Word-Semantics-for-Efficient-In-Context-Learning)]) is accepted to **NeurIPS 2024**.  
-- 2024-01 — One paper on [theoretical foundation of neural active learning](https://arxiv.org/pdf/2406.03944) ([[code](https://github.com/DakeBU/Neural-Active-Learning-Succeeds-via-Prioritizing-Perplexing-Samples)]) accepted to **ICML 2024**.  
-
-## Education
-
-- Oct. 2023 – Present — PhD Candidate, Department of Computer Science, City University of Hong Kong (CityUHK).  
-- Aug. 2019 – Jun. 2023 — School of Mathematics and Statistics, Xi’an Jiaotong University (XJTU).  
-
-## Work Experience
-
-- Dec. 2025 - Present, - Research Intern, CFAR A*STAR
-- Dec. 2024 - Oct. 2023 - Research Intern, RIKEN AIP
-- Jan. 2023- May. 2023 - Research Assistant, The Chinese University of Hong Kong, Shenzhen
-
-## Service
-
-- Area Chair: ICML 2026 FOGEN; ICLR 2026 DeLTa.
-- Reviewer: ICML (2024; 2025; 2026); NeurIPS (2024; 2025; 2026); ICLR (2025; 2026).
-
-:::
-
-::: {.col-lg-4}
-
-## Contact
-
-- **Affiliation**: {{< var affiliation >}}  
-- **Location**: {{< var location >}}  
-- **Email**: <{{< var email >}}>  
-
-## Links
-
-- 📄 [Curriculum Vitae](cv/cv.pdf)  
-- 📚 [Google Scholar](https://scholar.google.com/citations?hl=ja&user=mWrnNqsAAAAJ&view_op=list_works&sortby=pubdate)  
-
-
----
-
-## Site Statistics 📊
-
-<div class="site-statistics-content">
-
-![](image/site_statistics.png){width=60%}
-
-</div>
-
-:::
-
-:::
-
-<div class="site-statistics-content">
-  <div class="visitor-globe">
-  <script type="text/javascript" id="mapmyvisitors"
-    src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=4xO3iLDzTFL_EWIQet3rdXqr0eP0pjxulJQecHYOusA">
-  </script>
+  <div class="home-bio">
+    <h2>About</h2>
+    <p>Hi! I am a <strong>Ph.D. candidate in Computer Science at City University of Hong Kong</strong>, advised by Prof. <a href="https://scholars.cityu.edu.hk/en/persons/cshswong/">Hau-San Wong</a> and Prof. <a href="https://www.cs.cityu.edu.hk/~qzhan7/index.html">Qingfu Zhang</a>. I also work closely with Prof. <a href="https://weihuang05.github.io">Wei Huang</a> and Prof. <a href="https://andihan3.github.io/">Andi Han</a>.</p>
+    <p>My research studies the <strong>theory and algorithms of large-scale machine learning systems</strong>, including emergent in-context learning, agentic AI, LLM and diffusion post-training, reinforcement learning, non-log-concave sampling, and automated theorem proving. I am particularly interested in theory-grounded algorithm design with reproducible experiments.</p>
+    <p>I am currently a one-year research intern at <strong>CFAR, A*STAR</strong>, supervised by Prof. <a href="https://sites.google.com/site/atsushinitanda/home">Atsushi Nitanda</a>. Before that, I spent 2024–2025 with the <a href="https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/index.html">Deep Learning Theory Team at RIKEN AIP</a>, working under Prof. <a href="https://ibis.t.u-tokyo.ac.jp/suzuki/">Taiji Suzuki</a>.</p>
+    <p>I received my B.S. in Mathematics from <strong>Xi'an Jiaotong University</strong> in 2023. In 2026, I also visited the School of Mathematics and Statistics at the University of Sydney, working with Prof. <a href="https://andihan3.github.io/">Andi Han</a>.</p>
   </div>
+</section>
+
+<section id="affiliations" class="home-section">
+  <h2>Affiliations</h2>
+  <div class="home-affiliations">
+    <div class="home-affiliation">
+      <div class="affiliation-mark"><span>CityU</span></div>
+      <a class="affiliation-name" href="https://www.cityu.edu.hk/">City University of Hong Kong</a>
+      <span class="affiliation-date">2023–Present</span>
+    </div>
+    <div class="home-affiliation">
+      <div class="affiliation-mark"><span>A*STAR</span></div>
+      <a class="affiliation-name" href="https://www.a-star.edu.sg/">CFAR, A*STAR</a>
+      <span class="affiliation-date">2025–Present</span>
+    </div>
+    <div class="home-affiliation">
+      <div class="affiliation-mark"><span>RIKEN</span></div>
+      <a class="affiliation-name" href="https://www.riken.jp/en/research/labs/aip/">RIKEN AIP</a>
+      <span class="affiliation-date">2024–2025</span>
+    </div>
+    <div class="home-affiliation">
+      <div class="affiliation-mark"><span>XJTU</span></div>
+      <a class="affiliation-name" href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University</a>
+      <span class="affiliation-date">2019–2023</span>
+    </div>
+  </div>
+</section>
+
+<section id="news" class="home-section">
+  <h2>Recent News</h2>
+  <div class="home-news-scroll" tabindex="0" aria-label="Recent news; scroll for earlier items">
+    <ul class="home-news">
+      <li><time datetime="2026-07">07/2026</time><span>Our GitHub repositories <a href="https://github.com/DakeBU/Auto-Bandit-RL-Proof-In-Sleep/">ABRL</a> and <a href="https://github.com/DakeBU/Auto-Sampling-Theory-In-Sleep">Auto-Sampling-Theory-In-Sleep</a> are available, together with the public Lean libraries <a href="https://dakebu.github.io/Auto-Bandit-RL-Proof-In-Sleep/">BanditRLlib</a> and <a href="https://dakebu.github.io/Auto-Sampling-Theory-In-Sleep/index.html">Samplinglib</a>.</span></li>
+      <li><time datetime="2026-06">06/2026</time><span>Attended the <a href="https://ims.nus.edu.sg/events/ma_datascience2026/">Annual Summer School on Mathematical Aspects of Data Science</a> at NUS.</span></li>
+      <li><time datetime="2026-06">06/2026</time><span>Released <a href="https://github.com/DakeBU/Quantum-Computing-Block-Encoding">ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing</a>, with the public Lean library <a href="https://dakebu.github.io/Quantum-Computing-Block-Encoding/">QuantumComputinglib</a>.</span></li>
+      <li><time datetime="2026-06">06/2026</time><span><a href="https://arxiv.org/pdf/2604.24357">DPRM</a> was selected as an <strong>Oral</strong>, and <a href="https://openreview.net/forum?id=3dPpfbmZ3n">Distributional Biases in Post-Training</a> as a <strong>Spotlight</strong>, at ICML 2026 FoGen.</span></li>
+      <li><time datetime="2026-05">05/2026</time><span>Visited the School of Mathematics and Statistics at the University of Sydney and gave a talk on Langevin dynamics with partial structure.</span></li>
+      <li><time datetime="2026-05">05/2026</time><span>Received the <strong>ICML 2026 Gold Reviewer Award</strong>.</span></li>
+      <li><time datetime="2026-05">05/2026</time><span><a href="https://arxiv.org/pdf/2511.07372">Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning</a> was accepted to <strong>ICML 2026</strong>.</span></li>
+      <li><time datetime="2026-04">04/2026</time><span><a href="https://arxiv.org/pdf/2605.07950">Slowly Annealed Langevin Dynamics</a> and <a href="https://arxiv.org/pdf/2604.24357">DPRM</a> became available online.</span></li>
+      <li><time datetime="2025-01">01/2025</time><span>Two papers on <a href="https://openreview.net/pdf?id=DbUmeNnNpt">in-context vector arithmetic</a> and <a href="https://openreview.net/pdf?id=RTHTyTsRT3">lexicographic multi-objective reinforcement learning</a> were accepted to <strong>ICML 2025</strong>.</span></li>
+      <li><time datetime="2024-09">09/2024</time><span><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/73efab19ebde03ff0958f4f155483f57-Paper-Conference.pdf">Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning</a> was accepted to <strong>NeurIPS 2024</strong>.</span></li>
+      <li><time datetime="2024-01">01/2024</time><span><a href="https://arxiv.org/pdf/2406.03944">Provably Neural Active Learning Succeeds via Prioritizing Perplexing Samples</a> was accepted to <strong>ICML 2024</strong>.</span></li>
+    </ul>
+  </div>
+  <p class="home-scroll-note">Scroll for earlier news.</p>
+</section>
+
+<div class="home-lower-grid">
+  <section id="selected-research">
+    <h2>Selected Research</h2>
+    <div class="home-publication-list">
+      <article class="home-pub">
+        <div class="venue-rail">arXiv 2026</div>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/pdf/2605.07950">Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation</a></div>
+          <div class="pub-authors">Atsushi Nitanda, <strong>Dake Bu</strong>, Yueming Lyu, Tanya Veeravalli</div>
+          <div class="pub-links"><a href="https://arxiv.org/pdf/2605.07950">Paper</a><a href="https://github.com/anitan0925/sald/tree/main">Code</a></div>
+        </div>
+      </article>
+
+      <article class="home-pub">
+        <div class="venue-rail">FoGen 2026</div>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/abs/2604.24357">DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models</a><span class="pub-badge">Oral</span></div>
+          <div class="pub-authors"><strong>Dake Bu</strong>, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, Atsushi Nitanda</div>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2604.24357">Paper</a><a href="https://github.com/DakeBU/DPRM-DLLM">Code</a></div>
+        </div>
+      </article>
+
+      <article class="home-pub">
+        <div class="venue-rail">ICML 2026</div>
+        <div class="pub-body">
+          <div class="pub-title"><a href="https://arxiv.org/pdf/2511.07372">Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning</a></div>
+          <div class="pub-authors"><strong>Dake Bu</strong>, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, Taiji Suzuki</div>
+          <div class="pub-links"><a href="https://arxiv.org/pdf/2511.07372">Paper</a><a href="https://github.com/DakeBU/Curriculum-Post-training">Code</a></div>
+        </div>
+      </article>
+    </div>
+    <p class="research-more"><a href="research/">See the complete research list →</a></p>
+  </section>
+
+  <aside class="visitor-panel" aria-label="Visitors">
+    <h2>Visitors</h2>
+    <div class="visitor-map">
+      <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=4xO3iLDzTFL_EWIQet3rdXqr0eP0pjxulJQecHYOusA"></script>
+    </div>
+  </aside>
 </div>
 
-<style>
-.profile-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.8rem;
-  flex-wrap: wrap;
-  max-width: 100%;
-  position: relative;
-  z-index: 1;
-}
-
-.profile-links {
-  display: flex;
-  gap: 0.55rem;
-  align-items: center;
-  line-height: 1;
-  flex: 0 0 auto;
-}
-
-.profile-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  color: #111;
-  text-decoration: none;
-  vertical-align: middle;
-}
-
-.profile-links svg {
-  width: 31px;
-  height: 31px;
-  fill: currentColor;
-}
-
-.scholar-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 31px;
-  height: 31px;
-  border-radius: 50%;
-  background: #4285f4;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.x-icon {
-  font-family: Arial, sans-serif;
-  font-size: 32px;
-  font-weight: 500;
-}
-
-.site-statistics-content {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.visitor-globe {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-}
-
-.visitor-globe > * {
-  transform: scale(0.25);
-  transform-origin: top center;
-}
-</style>
+</div>
