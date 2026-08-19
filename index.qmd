@@ -24,9 +24,9 @@ page-layout: full
   <div class="home-bio">
     <h2>About</h2>
     <p>Hi! I am a <strong>Ph.D. candidate in Computer Science at City University of Hong Kong</strong>, advised by Prof. <a href="https://scholars.cityu.edu.hk/en/persons/cshswong/">Hau-San Wong</a> and Prof. <a href="https://www.cs.cityu.edu.hk/~qzhan7/index.html">Qingfu Zhang</a>. I also work closely with Prof. <a href="https://weihuang05.github.io">Wei Huang</a> and Prof. <a href="https://andihan3.github.io/">Andi Han</a>.</p>
-    <p>My research focuses on the <strong>theory and algorithms of large-scale machine learning systems</strong>, spanning emergent in-context learning, agentic AI, LLM and diffusion post-training, reinforcement learning, non-log-concave sampling, and automated theorem proving. I am particularly interested in theory-grounded algorithm design together with reproducible experiments.</p>
+    <p>My research focuses on the <strong>theory and algorithms of large-scale machine learning systems</strong>, spanning emergent in-context learning, agentic AI, LLM and diffusion post-training, reinforcement learning, non-log-concave sampling, AI4Math, and quantum computing. I am particularly interested in theory-grounded algorithm design together with reproducible experiments.</p>
     <p>I am currently a one-year research intern at <strong>CFAR, A*STAR</strong>, supervised by Prof. <a href="https://sites.google.com/site/atsushinitanda/home">Atsushi Nitanda</a>. Before that, I spent 2024–2025 with the <a href="https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/index.html">Deep Learning Theory Team at RIKEN AIP</a>, working under Prof. <a href="https://ibis.t.u-tokyo.ac.jp/suzuki/">Taiji Suzuki</a>.</p>
-    <p>I received my B.S. in Mathematics from <strong>Xi'an Jiaotong University</strong> in 2023. In 2026, I also visited the School of Mathematics and Statistics at the University of Sydney, working with Prof. <a href="https://andihan3.github.io/">Andi Han</a>.</p>
+    <p>I received my B.S. in Mathematics from <strong>Xi'an Jiaotong University</strong> in 2023, advised by Prof. <a href="https://scholar.google.com/citations?hl=en&user=BhgtoWMAAAAJ">Hui Li</a>. Earlier, from January to May 2023, I was a research assistant in the <a href="https://mypage.cuhk.edu.cn/academics/yutianshu/LOGO.html">LOGO Lab</a> at The Chinese University of Hong Kong, Shenzhen, advised by Prof. <a href="https://mypage.cuhk.edu.cn/academics/yutianshu/">Tianshu Yu</a>. In 2026, I also visited the School of Mathematics and Statistics at the University of Sydney, working with Prof. <a href="https://andihan3.github.io/">Andi Han</a>.</p>
   </div>
 </section>
 
@@ -42,7 +42,7 @@ page-layout: full
     </div>
     <div class="home-affiliation">
       <a class="affiliation-logo logo-astar" href="https://www.a-star.edu.sg/" aria-label="A*STAR">
-        <img src="https://img.logokit.com/a-star.edu.sg" alt="A*STAR logo" loading="lazy" decoding="async">
+        <img src="https://research.a-star.edu.sg/wp-content/uploads/2021/09/astar-vertical-logo-rgb-telegram-profile-pic.png" alt="A*STAR logo" loading="lazy" decoding="async">
       </a>
       <a class="affiliation-name" href="https://www.a-star.edu.sg/">CFAR, A*STAR</a>
       <span class="affiliation-date">2025–Present</span>
@@ -98,7 +98,7 @@ page-layout: full
       </article>
 
       <article class="home-pub">
-        <div class="venue-rail">FoGen 2026</div>
+        <div class="venue-rail">ICML FoGen</div>
         <div class="pub-body">
           <div class="pub-title"><a href="https://arxiv.org/abs/2604.24357">DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models</a><span class="pub-badge">Oral</span></div>
           <div class="pub-authors"><strong>Dake Bu</strong>, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, Atsushi Nitanda</div>
