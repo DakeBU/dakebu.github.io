@@ -131,8 +131,14 @@ a:hover {
   font-size: 0.51rem;
 }
 
+.home-bio {
+  min-width: 0;
+}
+
 .home-bio h2 {
-  margin-top: 0;
+  display: block !important;
+  visibility: visible !important;
+  margin-top: 0 !important;
 }
 
 .home-bio p {
@@ -272,6 +278,7 @@ a:hover {
 
 .home-lower-grid > * {
   min-width: 0;
+  align-self: start;
 }
 
 .selected-research-panel h2,
@@ -288,7 +295,9 @@ a:hover {
 .home-pub {
   display: grid;
   grid-template-columns: 46px minmax(0, 1fr);
-  min-height: 108px;
+  min-height: 104px;
+  height: auto !important;
+  align-self: start;
   border: 1px solid #dfe3e7;
   background: #fff;
 }
@@ -356,6 +365,7 @@ a:hover {
 
 .visitor-panel {
   min-width: 0;
+  align-self: start !important;
 }
 
 .visitor-map {
@@ -381,10 +391,39 @@ a:hover {
   max-height: 176px !important;
 }
 
+/* Quarto can attach page-column utility classes to raw HTML containers.
+   Keep those utilities from altering the custom homepage grids. */
+.homepage.page-columns {
+  display: block !important;
+}
+
+.home-profile.page-columns {
+  display: grid !important;
+  grid-template-columns: 275px minmax(0, 1fr) !important;
+  gap: 40px !important;
+}
+
+.home-profile.page-columns > * {
+  grid-column: auto !important;
+  grid-row: auto !important;
+}
+
+.home-lower-grid.page-columns {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 270px !important;
+  gap: 1.9rem !important;
+}
+
+.home-lower-grid.page-columns > * {
+  grid-column: auto !important;
+  grid-row: auto !important;
+}
+
 @media (max-width: 900px) {
-  .home-lower-grid {
-    grid-template-columns: 1fr;
-    gap: 0.1rem;
+  .home-lower-grid,
+  .home-lower-grid.page-columns {
+    grid-template-columns: 1fr !important;
+    gap: 0.1rem !important;
   }
 
   .visitor-panel {
@@ -398,9 +437,10 @@ a:hover {
     margin-top: 1rem;
   }
 
-  .home-profile {
-    grid-template-columns: 1fr;
-    gap: 1.05rem;
+  .home-profile,
+  .home-profile.page-columns {
+    grid-template-columns: 1fr !important;
+    gap: 1.05rem !important;
   }
 
   .home-identity {
@@ -409,7 +449,7 @@ a:hover {
   }
 
   .home-bio h2 {
-    margin-top: 0.25rem;
+    margin-top: 0.25rem !important;
   }
 
   .home-affiliations {
