@@ -24,32 +24,40 @@ page-layout: full
   <div class="home-bio">
     <h2>About</h2>
     <p>Hi! I am a <strong>Ph.D. candidate in Computer Science at City University of Hong Kong</strong>, advised by Prof. <a href="https://scholars.cityu.edu.hk/en/persons/cshswong/">Hau-San Wong</a> and Prof. <a href="https://www.cs.cityu.edu.hk/~qzhan7/index.html">Qingfu Zhang</a>. I also work closely with Prof. <a href="https://weihuang05.github.io">Wei Huang</a> and Prof. <a href="https://andihan3.github.io/">Andi Han</a>.</p>
-    <p>My research studies the <strong>theory and algorithms of large-scale machine learning systems</strong>, including emergent in-context learning, agentic AI, LLM and diffusion post-training, reinforcement learning, non-log-concave sampling, and automated theorem proving. I am particularly interested in theory-grounded algorithm design with reproducible experiments.</p>
+    <p>My research focuses on the <strong>theory and algorithms of large-scale machine learning systems</strong>, spanning emergent in-context learning, agentic AI, LLM and diffusion post-training, reinforcement learning, non-log-concave sampling, and automated theorem proving. I am particularly interested in theory-grounded algorithm design together with reproducible experiments.</p>
     <p>I am currently a one-year research intern at <strong>CFAR, A*STAR</strong>, supervised by Prof. <a href="https://sites.google.com/site/atsushinitanda/home">Atsushi Nitanda</a>. Before that, I spent 2024–2025 with the <a href="https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/index.html">Deep Learning Theory Team at RIKEN AIP</a>, working under Prof. <a href="https://ibis.t.u-tokyo.ac.jp/suzuki/">Taiji Suzuki</a>.</p>
     <p>I received my B.S. in Mathematics from <strong>Xi'an Jiaotong University</strong> in 2023. In 2026, I also visited the School of Mathematics and Statistics at the University of Sydney, working with Prof. <a href="https://andihan3.github.io/">Andi Han</a>.</p>
   </div>
 </section>
 
-<section id="affiliations" class="home-section">
+<section id="affiliations" class="home-section affiliations-section">
   <h2>Affiliations</h2>
   <div class="home-affiliations">
     <div class="home-affiliation">
-      <div class="affiliation-mark"><span>CityU</span></div>
+      <a class="affiliation-logo logo-cityu" href="https://www.cityu.edu.hk/" aria-label="City University of Hong Kong">
+        <img src="https://template.cityu.edu.hk/template/v2/logo/CityU/CityU_Vertical_Logo_CMYK.svg" alt="City University of Hong Kong logo" loading="lazy" decoding="async">
+      </a>
       <a class="affiliation-name" href="https://www.cityu.edu.hk/">City University of Hong Kong</a>
       <span class="affiliation-date">2023–Present</span>
     </div>
     <div class="home-affiliation">
-      <div class="affiliation-mark"><span>A*STAR</span></div>
+      <a class="affiliation-logo logo-astar" href="https://www.a-star.edu.sg/" aria-label="A*STAR">
+        <img src="https://img.logokit.com/a-star.edu.sg" alt="A*STAR logo" loading="lazy" decoding="async">
+      </a>
       <a class="affiliation-name" href="https://www.a-star.edu.sg/">CFAR, A*STAR</a>
       <span class="affiliation-date">2025–Present</span>
     </div>
     <div class="home-affiliation">
-      <div class="affiliation-mark"><span>RIKEN</span></div>
+      <a class="affiliation-logo logo-riken" href="https://www.riken.jp/en/research/labs/aip/" aria-label="RIKEN AIP">
+        <img src="https://aip.riken.jp/uploads/aip-icon-grey.png" alt="RIKEN AIP logo" loading="lazy" decoding="async">
+      </a>
       <a class="affiliation-name" href="https://www.riken.jp/en/research/labs/aip/">RIKEN AIP</a>
       <span class="affiliation-date">2024–2025</span>
     </div>
     <div class="home-affiliation">
-      <div class="affiliation-mark"><span>XJTU</span></div>
+      <a class="affiliation-logo logo-xjtu" href="https://en.xjtu.edu.cn/" aria-label="Xi'an Jiaotong University">
+        <img src="https://vi.xjtu.edu.cn/images/a1-3jdxhred.png" alt="Xi'an Jiaotong University logo" loading="lazy" decoding="async">
+      </a>
       <a class="affiliation-name" href="https://en.xjtu.edu.cn/">Xi'an Jiaotong University</a>
       <span class="affiliation-date">2019–2023</span>
     </div>
@@ -77,7 +85,7 @@ page-layout: full
 </section>
 
 <div class="home-lower-grid">
-  <section id="selected-research">
+  <section id="selected-research" class="selected-research-panel">
     <h2>Selected Research</h2>
     <div class="home-publication-list">
       <article class="home-pub">
