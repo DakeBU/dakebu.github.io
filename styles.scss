@@ -309,10 +309,18 @@ a:hover {
   background: #fff;
 }
 
-.home-pub-wide {
+.home-pub-wide,
+.home-pub-wide-secondary {
   grid-column: 1 / -1;
-  grid-row: 2;
   width: 100%;
+}
+
+.home-pub-wide {
+  grid-row: 2;
+}
+
+.home-pub-wide-secondary {
+  grid-row: 3;
 }
 
 .venue-rail {
@@ -373,7 +381,7 @@ a:hover {
 
 .research-more {
   grid-column: 1 / -1;
-  grid-row: 3;
+  grid-row: 4;
   margin: -0.08rem 0 0;
   font-size: 0.84rem;
 }
@@ -450,14 +458,19 @@ a:hover {
     grid-row: 2 !important;
   }
 
-  .research-more {
+  .home-pub-wide-secondary {
     grid-column: 1 !important;
     grid-row: 3 !important;
   }
 
-  .visitor-panel {
+  .research-more {
     grid-column: 1 !important;
     grid-row: 4 !important;
+  }
+
+  .visitor-panel {
+    grid-column: 1 !important;
+    grid-row: 5 !important;
     max-width: 520px;
   }
 }
