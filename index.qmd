@@ -124,6 +124,15 @@ page-layout: full
     </div>
   </article>
 
+  <article class="home-pub home-pub-wide-secondary">
+    <div class="venue-rail">NeurIPS 2024</div>
+    <div class="pub-body">
+      <div class="pub-title"><a href="https://arxiv.org/abs/2411.02199">Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning</a></div>
+      <div class="pub-authors"><strong>Dake Bu</strong>, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong</div>
+      <div class="pub-links"><a href="https://arxiv.org/abs/2411.02199">Paper</a><a href="https://github.com/DakeBU/Transformers-Harness-Multi-Concept-Word-Semantics-for-Efficient-In-Context-Learning">Code</a></div>
+    </div>
+  </article>
+
   <p class="research-more"><a href="research/">See the complete research list →</a></p>
 </div>
 
