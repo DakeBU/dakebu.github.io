@@ -310,7 +310,8 @@ a:hover {
 }
 
 .home-pub-wide,
-.home-pub-wide-secondary {
+.home-pub-wide-secondary,
+.home-pub-pair {
   grid-column: 1 / -1;
   width: 100%;
 }
@@ -319,8 +320,20 @@ a:hover {
   grid-row: 2;
 }
 
-.home-pub-wide-secondary {
+.home-pub-pair {
   grid-row: 3;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.72rem;
+  align-items: stretch;
+}
+
+.home-pub-pair .home-pub {
+  height: 100% !important;
+}
+
+.home-pub-wide-secondary {
+  grid-row: 4;
 }
 
 .venue-rail {
@@ -381,7 +394,7 @@ a:hover {
 
 .research-more {
   grid-column: 1 / -1;
-  grid-row: 4;
+  grid-row: 5;
   margin: -0.08rem 0 0;
   font-size: 0.84rem;
 }
@@ -458,19 +471,29 @@ a:hover {
     grid-row: 2 !important;
   }
 
-  .home-pub-wide-secondary {
+  .home-pub-pair {
     grid-column: 1 !important;
     grid-row: 3 !important;
+    grid-template-columns: 1fr;
   }
 
-  .research-more {
+  .home-pub-pair .home-pub {
+    height: auto !important;
+  }
+
+  .home-pub-wide-secondary {
     grid-column: 1 !important;
     grid-row: 4 !important;
   }
 
-  .visitor-panel {
+  .research-more {
     grid-column: 1 !important;
     grid-row: 5 !important;
+  }
+
+  .visitor-panel {
+    grid-column: 1 !important;
+    grid-row: 6 !important;
     max-width: 520px;
   }
 }
