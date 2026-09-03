@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "posts/hello-world.html",
-    "href": "posts/hello-world.html",
-    "title": "Hello, Quarto",
-    "section": "",
-    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
-  },
-  {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
     "title": "Teaching",
@@ -28,18 +21,25 @@
     "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dake Bu",
     "section": "",
     "text": "Dake Bu\n    卜 大可 ・ ウラナイ タイカ\n    Ph.D. Candidate, City University of Hong KongResearch Intern, CFAR, A*STAR\n    dakebu2-c [at] my.cityu [dot] edu [dot] hk\n    \n      GScholar\n      GHGitHub\n      inLinkedIn\n      CVCV\n    \n  \n\n  \n    About\n    Hi! I am a Ph.D. candidate in Computer Science at City University of Hong Kong, advised by Prof. Hau-San Wong and Prof. Qingfu Zhang. I also work closely with Prof. Wei Huang and Prof. Andi Han.\n    My research focuses on the theory and algorithms of large-scale machine learning systems, spanning emergent in-context learning, agentic AI, LLM and diffusion post-training, reinforcement learning, non-log-concave sampling, AI4Math, and quantum computing. I am particularly interested in theory-grounded algorithm design together with reproducible experiments.\n    I am currently a one-year research intern at CFAR, A*STAR, supervised by Prof. Atsushi Nitanda. Before that, I spent 2024–2025 with the Deep Learning Theory Team at RIKEN AIP, working under Prof. Taiji Suzuki.\n    I received my B.S. in Mathematics from Xi'an Jiaotong University in 2023, advised by Prof. Hui Li. Earlier, from January to May 2023, I was a research assistant in the LOGO Lab at The Chinese University of Hong Kong, Shenzhen, advised by Prof. Tianshu Yu. In 2026, I also visited the School of Mathematics and Statistics at the University of Sydney, working with Prof. Andi Han.\n  \n\n\n\n  Affiliations\n  \n    \n      \n        \n      \n      City University of Hong Kong\n      2023–Present\n    \n    \n      \n        \n      \n      CFAR, A*STAR\n      2025–Present\n    \n    \n      \n        \n      \n      RIKEN AIP\n      2024–2025\n    \n    \n      \n        \n      \n      Xi'an Jiaotong University\n      2019–2023\n    \n  \n\n\n\n  Recent News\n  \n    \n      07/2026Our GitHub repositories ABRL and Auto-Sampling-Theory-In-Sleep are available, together with the public Lean libraries BanditRLlib and Samplinglib.\n      06/2026Attended the Annual Summer School on Mathematical Aspects of Data Science at NUS.\n      06/2026Released ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing, with the public Lean library QuantumComputinglib.\n      06/2026DPRM was selected as an Oral, and Distributional Biases in Post-Training as a Spotlight, at ICML 2026 FoGen.\n      05/2026Visited the School of Mathematics and Statistics at the University of Sydney and gave a talk on Langevin dynamics with partial structure.\n      05/2026Received the ICML 2026 Gold Reviewer Award.\n      05/2026Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning was accepted to ICML 2026.\n      04/2026Slowly Annealed Langevin Dynamics and DPRM became available online.\n      01/2025Two papers on in-context vector arithmetic and lexicographic multi-objective reinforcement learning were accepted to ICML 2025.\n      09/2024Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning was accepted to NeurIPS 2024.\n      01/2024Provably Neural Active Learning Succeeds via Prioritizing Perplexing Samples was accepted to ICML 2024.\n    \n  \n  Scroll for earlier news.\n\n\n\n  \n    Selected Research\n    \n      \n        arXiv 2026\n        \n          Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation\n          Atsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli\n          PaperCode\n        \n      \n\n      \n        ICML FoGen\n        \n          DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language ModelsOral\n          Dake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, Atsushi Nitanda\n          PaperCode\n        \n      \n    \n  \n\n  \n    Visitors\n    \n      \n    \n  \n\n  \n    ICML 2026\n    \n      Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning\n      Dake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, Taiji Suzuki\n      PaperCode\n    \n  \n\n  \n    \n      ICML 2025\n      \n        Provable In-Context Vector Arithmetic via Retrieving Task Concepts\n        Dake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, Taiji Suzuki\n        PaperCode\n      \n    \n\n    \n      ICML 2025\n      \n        Multi-objective Linear Reinforcement Learning with Lexicographic Rewards\n        Bo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang\n        Paper\n      \n    \n  \n\n  \n    NeurIPS 2024\n    \n      Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning\n      Dake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong\n      PaperCode\n    \n  \n\n  See the complete research list →"
+  },
+  {
+    "objectID": "posts/hello-world.html",
+    "href": "posts/hello-world.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "research/index.html",
@@ -63,10 +63,10 @@
     "text": "Publications\n\nDake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. (ICML 2026 FoGen Oral) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories. (ICML 2026 FoGen Spotlight) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning. (ICML 2026) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML 2025). [arXiv] [code]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML 2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong. Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv] [code]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong. Provably Neural Active Learning Succeeds via Prioritizing Perplexing Samples. (ICML 2024) [arXiv] [code]"
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "No matching items"
+    "text": "I keep my CV as a PDF.\n\nDownload CV (PDF)"
   }
 ]
