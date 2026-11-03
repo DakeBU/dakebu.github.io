@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Dake Bu, Xiajie Huang, Nana Liu, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing. [GitHub] [arXiv under Preparation]\nDake Bu, Ji Cheng, Bo Xue, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ABRL: A Target-Faithful Autoformalization Harness and Lean 4 Library for Bandit and Reinforcement Learning Theory. [GitHub] [arXiv under Preparation]"
+  },
+  {
+    "objectID": "research/index.html#working-papers",
+    "href": "research/index.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "Dake Bu, Xiajie Huang, Nana Liu, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing. [GitHub] [arXiv under Preparation]\nDake Bu, Ji Cheng, Bo Xue, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ABRL: A Target-Faithful Autoformalization Harness and Lean 4 Library for Bandit and Reinforcement Learning Theory. [GitHub] [arXiv under Preparation]"
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nDake Bu, Ji Cheng, Huanjian Zhou, Andi Han, Zonghao Chen, Sinho Chewi, Matthew S. Zhang, Hau-San Wong, Qingfu Zhang, Atsushi Nitanda. An Automated Theorem Proving System and Visualized Lean Library for Sampling Theory, Optimisation and Geometry. (NeurIPS 2026 Workshop MATH-AI) [OpenReview] [GitHub] [Samplinglib]\nAtsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. (NeurIPS 2026) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. (ICML 2026 FoGen Oral) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories. (ICML 2026 FoGen Spotlight) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning. (ICML 2026) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML 2025). [arXiv] [code]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML 2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong. Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv] [code]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong. Provably Neural Active Learning Succeeds via Prioritizing Perplexing Samples. (ICML 2024) [arXiv] [code]"
+  },
+  {
+    "objectID": "posts/hello-world.html",
+    "href": "posts/hello-world.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dake Bu",
@@ -21,13 +49,6 @@
     "text": "No matching items"
   },
   {
-    "objectID": "posts/hello-world.html",
-    "href": "posts/hello-world.html",
-    "title": "Hello, Quarto",
-    "section": "",
-    "text": "This is a placeholder post. Replace it with your own content, or delete the posts/ folder if you don’t want a blog."
-  },
-  {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
     "title": "Teaching",
@@ -47,26 +68,5 @@
     "title": "Teaching",
     "section": "Past courses",
     "text": "Past courses\n\nCS3483 (2025) — Multi-model Interface Design.\nCS3481 (2024) — Fundamentals of Data Science.\nCS3483 (2023) — Multi-model Interface Design."
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Dake Bu, Xiajie Huang, Nana Liu, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing. [GitHub] [arXiv under Preparation]\nDake Bu, Ji Cheng, Bo Xue, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ABRL: A Target-Faithful Autoformalization Harness and Lean 4 Library for Bandit and Reinforcement Learning Theory. [GitHub] [arXiv under Preparation]"
-  },
-  {
-    "objectID": "research/index.html#working-papers",
-    "href": "research/index.html#working-papers",
-    "title": "Research",
-    "section": "",
-    "text": "Dake Bu, Xiajie Huang, Nana Liu, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ASPBE: Automatic State Preparation and Block Encoding for Quantum Computing. [GitHub] [arXiv under Preparation]\nDake Bu, Ji Cheng, Bo Xue, Atsushi Nitanda, Hau-San Wong, Qingfu Zhang. ABRL: A Target-Faithful Autoformalization Harness and Lean 4 Library for Bandit and Reinforcement Learning Theory. [GitHub] [arXiv under Preparation]"
-  },
-  {
-    "objectID": "research/index.html#publications",
-    "href": "research/index.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nDake Bu, Ji Cheng, Huanjian Zhou, Andi Han, Zonghao Chen, Sinho Chewi, Matthew S. Zhang, Hau-San Wong, Qingfu Zhang, Atsushi Nitanda. An Automated Theorem Proving System and Visualized Lean Library for Sampling Theory, Optimisation and Geometry. (NeurIPS 2026 Workshop MATH-AI) [OpenReview] [GitHub] [Samplinglib]\nAtsushi Nitanda, Dake Bu, Yueming Lyu, Tanya Veeravalli. Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation. (NeurIPS 2026) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Hau-San Wong, Qingfu Zhang, Taiji Suzuki, and Atsushi Nitanda. DPRM: A Plug-in Doob h transform-induced Token-Ordering Module for Diffusion Language Models. (ICML 2026 FoGen Oral) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Bo Xue, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories. (ICML 2026 FoGen Spotlight) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable Sample Efficiency of Curriculum Post-Training for Transformer Reasoning. (ICML 2026) [arXiv] [code]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Qingfu Zhang, Hau-San Wong, and Taiji Suzuki. Provable In-Context Vector Arithmetic via Retrieving Task Concepts. The 42nd International Conference on Machine Learning (ICML 2025). [arXiv] [code]\nBo Xue, Dake Bu, Ji Cheng, Yuanyu Wan, Qingfu Zhang. Multi-objective Linear Reinforcement Learning with Lexicographic Rewards. The 42nd International Conference on Machine Learning (ICML 2025). [openreview]\nDake Bu, Wei Huang, Andi Han, Atsushi Nitanda, Taiji Suzuki, Qingfu Zhang, Hau-San Wong. Provably Transformers Harness Multi-Concept Word Semantics for Efficient In-Context Learning. Advances in Neural Information Processing Systems 37 (NeurIPS 2024). [arXiv] [code]\nDake Bu, Wei Huang, Taiji Suzuki, Ji Cheng, Qingfu Zhang, Zhiqiang Xu, Hau-San Wong. Provably Neural Active Learning Succeeds via Prioritizing Perplexing Samples. (ICML 2024) [arXiv] [code]"
   }
 ]
